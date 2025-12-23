@@ -1,0 +1,15 @@
+/Users/chef/Desktop/dstack/target/debug/deps/uuid-b21f93c5420d8b30.d: /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.18.0/src/lib.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.18.0/src/builder.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.18.0/src/error.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.18.0/src/non_nil.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.18.0/src/parser.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.18.0/src/fmt.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.18.0/src/timestamp.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.18.0/src/v4.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.18.0/src/rng.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.18.0/src/external.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.18.0/src/macros.rs
+
+/Users/chef/Desktop/dstack/target/debug/deps/libuuid-b21f93c5420d8b30.rmeta: /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.18.0/src/lib.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.18.0/src/builder.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.18.0/src/error.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.18.0/src/non_nil.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.18.0/src/parser.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.18.0/src/fmt.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.18.0/src/timestamp.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.18.0/src/v4.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.18.0/src/rng.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.18.0/src/external.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.18.0/src/macros.rs
+
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.18.0/src/lib.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.18.0/src/builder.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.18.0/src/error.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.18.0/src/non_nil.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.18.0/src/parser.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.18.0/src/fmt.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.18.0/src/timestamp.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.18.0/src/v4.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.18.0/src/rng.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.18.0/src/external.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.18.0/src/macros.rs:

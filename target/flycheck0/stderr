@@ -1,0 +1,148 @@
+   0.280266625s  INFO prepare_target{force=false package_id=dstack-verifier v0.5.5 (/Users/chef/Desktop/dstack/verifier) target="dstack_verifier"}: cargo::core::compiler::fingerprint: stale: changed "/Users/chef/Desktop/dstack/verifier/src/lib.rs"
+   0.280281708s  INFO prepare_target{force=false package_id=dstack-verifier v0.5.5 (/Users/chef/Desktop/dstack/verifier) target="dstack_verifier"}: cargo::core::compiler::fingerprint:           (vs) "/Users/chef/Desktop/dstack/target/debug/.fingerprint/dstack-verifier-52ec7ffe41d79ae5/dep-lib-dstack_verifier"
+   0.280284750s  INFO prepare_target{force=false package_id=dstack-verifier v0.5.5 (/Users/chef/Desktop/dstack/verifier) target="dstack_verifier"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1766417131, nanos: 774835254 } < FileTime { seconds: 1766417134, nanos: 984923478 }
+   0.280344417s  INFO prepare_target{force=false package_id=dstack-verifier v0.5.5 (/Users/chef/Desktop/dstack/verifier) target="dstack_verifier"}: cargo::core::compiler::fingerprint: fingerprint dirty for dstack-verifier v0.5.5 (/Users/chef/Desktop/dstack/verifier)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("dstack_verifier", ["lib"], "/Users/chef/Desktop/dstack/verifier/src/lib.rs", Edition2021) }
+   0.280355042s  INFO prepare_target{force=false package_id=dstack-verifier v0.5.5 (/Users/chef/Desktop/dstack/verifier) target="dstack_verifier"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/Users/chef/Desktop/dstack/target/debug/.fingerprint/dstack-verifier-52ec7ffe41d79ae5/dep-lib-dstack_verifier", reference_mtime: FileTime { seconds: 1766417131, nanos: 774835254 }, stale: "/Users/chef/Desktop/dstack/verifier/src/lib.rs", stale_mtime: FileTime { seconds: 1766417134, nanos: 984923478 } }))
+   0.281191375s  INFO prepare_target{force=false package_id=dstack-verifier v0.5.5 (/Users/chef/Desktop/dstack/verifier) target="dstack_verifier"}: cargo::core::compiler::fingerprint: stale: changed "/Users/chef/Desktop/dstack/verifier/src/lib.rs"
+   0.281194792s  INFO prepare_target{force=false package_id=dstack-verifier v0.5.5 (/Users/chef/Desktop/dstack/verifier) target="dstack_verifier"}: cargo::core::compiler::fingerprint:           (vs) "/Users/chef/Desktop/dstack/target/debug/.fingerprint/dstack-verifier-9f59f6b6a8a3cbbb/dep-test-lib-dstack_verifier"
+   0.281196542s  INFO prepare_target{force=false package_id=dstack-verifier v0.5.5 (/Users/chef/Desktop/dstack/verifier) target="dstack_verifier"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1766417131, nanos: 781980077 } < FileTime { seconds: 1766417134, nanos: 984923478 }
+   0.281245917s  INFO prepare_target{force=false package_id=dstack-verifier v0.5.5 (/Users/chef/Desktop/dstack/verifier) target="dstack_verifier"}: cargo::core::compiler::fingerprint: fingerprint dirty for dstack-verifier v0.5.5 (/Users/chef/Desktop/dstack/verifier)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("dstack_verifier", ["lib"], "/Users/chef/Desktop/dstack/verifier/src/lib.rs", Edition2021) }
+   0.281249667s  INFO prepare_target{force=false package_id=dstack-verifier v0.5.5 (/Users/chef/Desktop/dstack/verifier) target="dstack_verifier"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/Users/chef/Desktop/dstack/target/debug/.fingerprint/dstack-verifier-9f59f6b6a8a3cbbb/dep-test-lib-dstack_verifier", reference_mtime: FileTime { seconds: 1766417131, nanos: 781980077 }, stale: "/Users/chef/Desktop/dstack/verifier/src/lib.rs", stale_mtime: FileTime { seconds: 1766417134, nanos: 984923478 } }))
+   0.282086625s  INFO prepare_target{force=false package_id=dstack-verifier v0.5.5 (/Users/chef/Desktop/dstack/verifier) target="dstack-verifier"}: cargo::core::compiler::fingerprint: fingerprint dirty for dstack-verifier v0.5.5 (/Users/chef/Desktop/dstack/verifier)/Check { test: false }/TargetInner { name: "dstack-verifier", doc: true, ..: with_path("/Users/chef/Desktop/dstack/verifier/src/main.rs", Edition2021) }
+   0.282090458s  INFO prepare_target{force=false package_id=dstack-verifier v0.5.5 (/Users/chef/Desktop/dstack/verifier) target="dstack-verifier"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "dstack_verifier" })
+   0.282926417s  INFO prepare_target{force=false package_id=dstack-verifier v0.5.5 (/Users/chef/Desktop/dstack/verifier) target="dstack-verifier"}: cargo::core::compiler::fingerprint: fingerprint dirty for dstack-verifier v0.5.5 (/Users/chef/Desktop/dstack/verifier)/Check { test: true }/TargetInner { name: "dstack-verifier", doc: true, ..: with_path("/Users/chef/Desktop/dstack/verifier/src/main.rs", Edition2021) }
+   0.282930250s  INFO prepare_target{force=false package_id=dstack-verifier v0.5.5 (/Users/chef/Desktop/dstack/verifier) target="dstack-verifier"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "dstack_verifier" })
+   0.289562042s  INFO prepare_target{force=false package_id=tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys) target="tdx_attest_sys"}: cargo::core::compiler::fingerprint: fingerprint error for tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("tdx_attest_sys", ["lib"], "/Users/chef/Desktop/dstack/tdx-attest-sys/src/lib.rs", Edition2021) }
+   0.289569667s  INFO prepare_target{force=false package_id=tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys) target="tdx_attest_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/tdx-attest-sys-3638d5bd29164023/lib-tdx_attest_sys`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+   0.291829875s  INFO prepare_target{force=false package_id=tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys) target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys)/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "/Users/chef/Desktop/dstack/tdx-attest-sys/build.rs", Edition2021) }
+   0.291834333s  INFO prepare_target{force=false package_id=tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys) target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/tdx-attest-sys-636074d4fbc06901/run-build-script-build-script-build`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::custom_build::build_work
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_ws
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+  19: _main
+   0.292341167s  INFO prepare_target{force=false package_id=tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys) target="tdx_attest_sys"}: cargo::core::compiler::fingerprint: fingerprint error for tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("tdx_attest_sys", ["lib"], "/Users/chef/Desktop/dstack/tdx-attest-sys/src/lib.rs", Edition2021) }
+   0.292345208s  INFO prepare_target{force=false package_id=tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys) target="tdx_attest_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/tdx-attest-sys-978fdd5a96e45ac9/test-lib-tdx_attest_sys`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+   Compiling tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys)
+    Checking dstack-verifier v0.5.5 (/Users/chef/Desktop/dstack/verifier)
+warning: tdx-attest-sys@0.5.5: csrc/tdx_attest.c:36:10: fatal error: 'linux/vm_sockets.h' file not found
+warning: tdx-attest-sys@0.5.5:    36 | #include <linux/vm_sockets.h>
+warning: tdx-attest-sys@0.5.5:       |          ^~~~~~~~~~~~~~~~~~~~
+warning: tdx-attest-sys@0.5.5: 1 error generated.
+warning: tdx-attest-sys@0.5.5: ToolExecError: command did not execute successfully (status code exit status: 1): env -u IPHONEOS_DEPLOYMENT_TARGET LC_ALL="C" "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-macosx" "-mmacosx-version-min=26.0" "-Wall" "-Wextra" "-o" "/Users/chef/Desktop/dstack/target/debug/build/tdx-attest-sys-636074d4fbc06901/out/faea18488176a15d-tdx_attest.o" "-c" "csrc/tdx_attest.c"
+error: failed to run custom build command for `tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys)`
+note: To improve backtraces for build dependencies, set the CARGO_PROFILE_DEV_BUILD_OVERRIDE_DEBUG=true environment variable to enable debug information generation.
+
+Caused by:
+  process didn't exit successfully: `/Users/chef/Desktop/dstack/target/debug/build/tdx-attest-sys-7eaa105062977317/build-script-build` (exit status: 1)
+  --- stdout
+  cargo:rerun-if-changed=csrc/tdx_attest.c
+  cargo:rerun-if-changed=csrc/qgs_msg_lib.cpp
+  OUT_DIR = Some(/Users/chef/Desktop/dstack/target/debug/build/tdx-attest-sys-636074d4fbc06901/out)
+  OPT_LEVEL = Some(0)
+  TARGET = Some(aarch64-apple-darwin)
+  HOST = Some(aarch64-apple-darwin)
+  cargo:rerun-if-env-changed=CC_aarch64-apple-darwin
+  CC_aarch64-apple-darwin = None
+  cargo:rerun-if-env-changed=CC_aarch64_apple_darwin
+  CC_aarch64_apple_darwin = None
+  cargo:rerun-if-env-changed=HOST_CC
+  HOST_CC = None
+  cargo:rerun-if-env-changed=CC
+  CC = None
+  cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+  RUSTC_WRAPPER = None
+  cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+  CRATE_CC_NO_DEFAULTS = None
+  DEBUG = Some(true)
+  cargo:rerun-if-env-changed=MACOSX_DEPLOYMENT_TARGET
+  MACOSX_DEPLOYMENT_TARGET = None
+  cargo:rerun-if-env-changed=CFLAGS
+  CFLAGS = None
+  cargo:rerun-if-env-changed=HOST_CFLAGS
+  HOST_CFLAGS = None
+  cargo:rerun-if-env-changed=CFLAGS_aarch64_apple_darwin
+  CFLAGS_aarch64_apple_darwin = None
+  cargo:rerun-if-env-changed=CFLAGS_aarch64-apple-darwin
+  CFLAGS_aarch64-apple-darwin = None
+  CARGO_ENCODED_RUSTFLAGS = Some()
+  cargo:warning=csrc/tdx_attest.c:36:10: fatal error: 'linux/vm_sockets.h' file not found
+  cargo:warning=   36 | #include <linux/vm_sockets.h>
+  cargo:warning=      |          ^~~~~~~~~~~~~~~~~~~~
+  cargo:warning=1 error generated.
+  exit status: 1
+  cargo:warning=ToolExecError: command did not execute successfully (status code exit status: 1): env -u IPHONEOS_DEPLOYMENT_TARGET LC_ALL="C" "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-macosx" "-mmacosx-version-min=26.0" "-Wall" "-Wextra" "-o" "/Users/chef/Desktop/dstack/target/debug/build/tdx-attest-sys-636074d4fbc06901/out/faea18488176a15d-tdx_attest.o" "-c" "csrc/tdx_attest.c"
+  exit status: 0
+
+  --- stderr
+
+
+  error occurred in cc-rs: command did not execute successfully (status code exit status: 1): env -u IPHONEOS_DEPLOYMENT_TARGET LC_ALL="C" "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-macosx" "-mmacosx-version-min=26.0" "-Wall" "-Wextra" "-o" "/Users/chef/Desktop/dstack/target/debug/build/tdx-attest-sys-636074d4fbc06901/out/faea18488176a15d-tdx_attest.o" "-c" "csrc/tdx_attest.c"
+
+

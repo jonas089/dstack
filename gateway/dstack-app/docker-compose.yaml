@@ -1,0 +1,28 @@
+# SPDX-FileCopyrightText: © 2025 Phala Network <dstack@phala.network>
+#
+# SPDX-License-Identifier: Apache-2.0
+
+services:
+  gateway:
+    image: ${GATEWAY_IMAGE}
+    volumes:
+      - /var/run/dstack.sock:/var/run/dstack.sock
+      - /dstack:/dstack
+      - data:/data
+    network_mode: host
+    privileged: true
+    environment:
+      - WG_ENDPOINT=${WG_ENDPOINT}
+      - SRV_DOMAIN=${SRV_DOMAIN}
+      - CF_API_TOKEN=${CF_API_TOKEN}
+      - MY_URL=${MY_URL}
+      - BOOTNODE_URL=${BOOTNODE_URL}
+      - ACME_STAGING=${ACME_STAGING}
+      - SUBNET_INDEX=${SUBNET_INDEX}
+      - RUST_LOG=info,certbot=debug
+      - PCCS_URL=${PCCS_URL}
+      - RPC_DOMAIN=${RPC_DOMAIN}
+    restart: always
+
+volumes:
+  data:

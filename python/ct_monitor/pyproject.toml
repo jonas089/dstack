@@ -1,0 +1,14 @@
+# SPDX-FileCopyrightText: © 2024 Phala Network <dstack@phala.network>
+#
+# SPDX-License-Identifier: Apache-2.0
+
+[project]
+name = "ct_monitor"
+version = "0.1.0"
+dependencies = [
+    "requests",
+    "cryptography",
+]
+
+[project.scripts]
+ct_monitor = "ct_monitor:main"

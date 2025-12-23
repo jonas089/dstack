@@ -1,0 +1,14 @@
+/Users/chef/Desktop/dstack/target/debug/deps/yansi-29018a2d2c7f3df6.d: /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yansi-1.0.1/src/lib.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yansi-1.0.1/src/macros.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yansi-1.0.1/src/windows.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yansi-1.0.1/src/attr_quirk.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yansi-1.0.1/src/style.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yansi-1.0.1/src/color.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yansi-1.0.1/src/paint.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yansi-1.0.1/src/global.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yansi-1.0.1/src/condition.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yansi-1.0.1/src/set.rs
+
+/Users/chef/Desktop/dstack/target/debug/deps/libyansi-29018a2d2c7f3df6.rmeta: /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yansi-1.0.1/src/lib.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yansi-1.0.1/src/macros.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yansi-1.0.1/src/windows.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yansi-1.0.1/src/attr_quirk.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yansi-1.0.1/src/style.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yansi-1.0.1/src/color.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yansi-1.0.1/src/paint.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yansi-1.0.1/src/global.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yansi-1.0.1/src/condition.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yansi-1.0.1/src/set.rs
+
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yansi-1.0.1/src/lib.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yansi-1.0.1/src/macros.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yansi-1.0.1/src/windows.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yansi-1.0.1/src/attr_quirk.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yansi-1.0.1/src/style.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yansi-1.0.1/src/color.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yansi-1.0.1/src/paint.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yansi-1.0.1/src/global.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yansi-1.0.1/src/condition.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yansi-1.0.1/src/set.rs:

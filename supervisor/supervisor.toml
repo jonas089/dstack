@@ -1,0 +1,19 @@
+# SPDX-FileCopyrightText: © 2024 Phala Network <dstack@phala.network>
+#
+# SPDX-License-Identifier: Apache-2.0
+
+[default]
+workers = 8
+max_blocking = 64
+ident = "Supervisor"
+temp_dir = "/tmp"
+keep_alive = 10
+log_level = "info"
+address = "unix:/var/run/supervisor.sock"
+reuse = false
+
+[default.shutdown]
+ctrlc = false
+signals = []
+grace = 0
+mercy = 0

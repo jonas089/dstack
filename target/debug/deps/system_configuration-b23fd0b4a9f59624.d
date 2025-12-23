@@ -1,0 +1,9 @@
+/Users/chef/Desktop/dstack/target/debug/deps/system_configuration-b23fd0b4a9f59624.d: /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/system-configuration-0.5.1/src/lib.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/system-configuration-0.5.1/src/dynamic_store.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/system-configuration-0.5.1/src/network_configuration.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/system-configuration-0.5.1/src/network_reachability.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/system-configuration-0.5.1/src/preferences.rs
+
+/Users/chef/Desktop/dstack/target/debug/deps/libsystem_configuration-b23fd0b4a9f59624.rmeta: /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/system-configuration-0.5.1/src/lib.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/system-configuration-0.5.1/src/dynamic_store.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/system-configuration-0.5.1/src/network_configuration.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/system-configuration-0.5.1/src/network_reachability.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/system-configuration-0.5.1/src/preferences.rs
+
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/system-configuration-0.5.1/src/lib.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/system-configuration-0.5.1/src/dynamic_store.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/system-configuration-0.5.1/src/network_configuration.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/system-configuration-0.5.1/src/network_reachability.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/system-configuration-0.5.1/src/preferences.rs:

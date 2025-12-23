@@ -1,0 +1,16 @@
+/Users/chef/Desktop/dstack/target/debug/deps/prost_build-1ce594c319b88152.d: /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.9.0/src/lib.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.9.0/src/ast.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.9.0/src/code_generator.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.9.0/src/extern_paths.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.9.0/src/ident.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.9.0/src/message_graph.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.9.0/src/path.rs
+
+/Users/chef/Desktop/dstack/target/debug/deps/libprost_build-1ce594c319b88152.rlib: /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.9.0/src/lib.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.9.0/src/ast.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.9.0/src/code_generator.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.9.0/src/extern_paths.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.9.0/src/ident.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.9.0/src/message_graph.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.9.0/src/path.rs
+
+/Users/chef/Desktop/dstack/target/debug/deps/libprost_build-1ce594c319b88152.rmeta: /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.9.0/src/lib.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.9.0/src/ast.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.9.0/src/code_generator.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.9.0/src/extern_paths.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.9.0/src/ident.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.9.0/src/message_graph.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.9.0/src/path.rs
+
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.9.0/src/lib.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.9.0/src/ast.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.9.0/src/code_generator.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.9.0/src/extern_paths.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.9.0/src/ident.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.9.0/src/message_graph.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.9.0/src/path.rs:
+
+# env-dep:PROTOC=/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.9.0/third-party/protobuf/protoc-osx-aarch64
+# env-dep:PROTOC_INCLUDE=/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.9.0/third-party/protobuf/include

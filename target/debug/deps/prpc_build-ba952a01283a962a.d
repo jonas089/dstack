@@ -1,0 +1,11 @@
+/Users/chef/Desktop/dstack/target/debug/deps/prpc_build-ba952a01283a962a.d: /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prpc-build-0.6.1/src/lib.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prpc-build-0.6.1/src/prost.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prpc-build-0.6.1/src/client.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prpc-build-0.6.1/src/server.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prpc-build-0.6.1/src/protos_codec_extension.rs
+
+/Users/chef/Desktop/dstack/target/debug/deps/libprpc_build-ba952a01283a962a.rlib: /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prpc-build-0.6.1/src/lib.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prpc-build-0.6.1/src/prost.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prpc-build-0.6.1/src/client.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prpc-build-0.6.1/src/server.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prpc-build-0.6.1/src/protos_codec_extension.rs
+
+/Users/chef/Desktop/dstack/target/debug/deps/libprpc_build-ba952a01283a962a.rmeta: /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prpc-build-0.6.1/src/lib.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prpc-build-0.6.1/src/prost.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prpc-build-0.6.1/src/client.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prpc-build-0.6.1/src/server.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prpc-build-0.6.1/src/protos_codec_extension.rs
+
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prpc-build-0.6.1/src/lib.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prpc-build-0.6.1/src/prost.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prpc-build-0.6.1/src/client.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prpc-build-0.6.1/src/server.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prpc-build-0.6.1/src/protos_codec_extension.rs:

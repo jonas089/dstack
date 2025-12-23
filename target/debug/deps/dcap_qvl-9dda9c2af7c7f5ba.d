@@ -1,0 +1,12 @@
+/Users/chef/Desktop/dstack/target/debug/deps/dcap_qvl-9dda9c2af7c7f5ba.d: /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/dcap-qvl-0.3.0/src/lib.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/dcap-qvl-0.3.0/src/collateral.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/dcap-qvl-0.3.0/src/constants.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/dcap-qvl-0.3.0/src/tcb_info.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/dcap-qvl-0.3.0/src/utils.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/dcap-qvl-0.3.0/src/quote.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/dcap-qvl-0.3.0/src/verify.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/dcap-qvl-0.3.0/src/TrustedRootCA.der
+
+/Users/chef/Desktop/dstack/target/debug/deps/libdcap_qvl-9dda9c2af7c7f5ba.rmeta: /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/dcap-qvl-0.3.0/src/lib.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/dcap-qvl-0.3.0/src/collateral.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/dcap-qvl-0.3.0/src/constants.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/dcap-qvl-0.3.0/src/tcb_info.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/dcap-qvl-0.3.0/src/utils.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/dcap-qvl-0.3.0/src/quote.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/dcap-qvl-0.3.0/src/verify.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/dcap-qvl-0.3.0/src/TrustedRootCA.der
+
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/dcap-qvl-0.3.0/src/lib.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/dcap-qvl-0.3.0/src/collateral.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/dcap-qvl-0.3.0/src/constants.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/dcap-qvl-0.3.0/src/tcb_info.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/dcap-qvl-0.3.0/src/utils.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/dcap-qvl-0.3.0/src/quote.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/dcap-qvl-0.3.0/src/verify.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/dcap-qvl-0.3.0/src/TrustedRootCA.der:
