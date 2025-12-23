@@ -1,0 +1,9 @@
+/Users/chef/Desktop/dstack/target/debug/deps/sha3-be470ac0da2e69e1.d: /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha3-0.10.8/src/lib.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha3-0.10.8/src/macros.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha3-0.10.8/src/state.rs
+
+/Users/chef/Desktop/dstack/target/debug/deps/libsha3-be470ac0da2e69e1.rlib: /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha3-0.10.8/src/lib.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha3-0.10.8/src/macros.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha3-0.10.8/src/state.rs
+
+/Users/chef/Desktop/dstack/target/debug/deps/libsha3-be470ac0da2e69e1.rmeta: /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha3-0.10.8/src/lib.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha3-0.10.8/src/macros.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha3-0.10.8/src/state.rs
+
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha3-0.10.8/src/lib.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha3-0.10.8/src/macros.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha3-0.10.8/src/state.rs:

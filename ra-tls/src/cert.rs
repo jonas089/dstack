@@ -144,12 +144,12 @@ impl CertSigningRequest {
         // Extract the DER-encoded private key and create an ECDSA key pair
         let key_pair =
             EcdsaKeyPair::from_pkcs8(&ECDSA_P256_SHA256_ASN1_SIGNING, &key.serialize_der(), &rng)
-                .context("Failed to create key pair from DER")?;
+                .map_err(|e| anyhow::anyhow!("failed to create key pair from DER: {e}"))?;
 
         // Sign the encoded CSR
         let signature = key_pair
             .sign(&rng, &encoded)
-            .context("Failed to sign CSR")?
+            .map_err(|e| anyhow::anyhow!("failed to sign CSR: {e}"))?
             .as_ref()
             .to_vec();
         Ok(signature)

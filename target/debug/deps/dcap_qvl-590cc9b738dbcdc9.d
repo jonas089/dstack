@@ -1,0 +1,14 @@
+/Users/chef/Desktop/dstack/target/debug/deps/dcap_qvl-590cc9b738dbcdc9.d: /Users/chef/.cargo/git/checkouts/dcap-qvl-dc8ba9b4327501db/c9483bc/src/lib.rs /Users/chef/.cargo/git/checkouts/dcap-qvl-dc8ba9b4327501db/c9483bc/src/collateral.rs /Users/chef/.cargo/git/checkouts/dcap-qvl-dc8ba9b4327501db/c9483bc/src/oids.rs /Users/chef/.cargo/git/checkouts/dcap-qvl-dc8ba9b4327501db/c9483bc/src/constants.rs /Users/chef/.cargo/git/checkouts/dcap-qvl-dc8ba9b4327501db/c9483bc/src/intel.rs /Users/chef/.cargo/git/checkouts/dcap-qvl-dc8ba9b4327501db/c9483bc/src/tcb_info.rs /Users/chef/.cargo/git/checkouts/dcap-qvl-dc8ba9b4327501db/c9483bc/src/utils.rs /Users/chef/.cargo/git/checkouts/dcap-qvl-dc8ba9b4327501db/c9483bc/src/quote.rs /Users/chef/.cargo/git/checkouts/dcap-qvl-dc8ba9b4327501db/c9483bc/src/verify.rs /Users/chef/.cargo/git/checkouts/dcap-qvl-dc8ba9b4327501db/c9483bc/src/TrustedRootCA.der
+
+/Users/chef/Desktop/dstack/target/debug/deps/libdcap_qvl-590cc9b738dbcdc9.rmeta: /Users/chef/.cargo/git/checkouts/dcap-qvl-dc8ba9b4327501db/c9483bc/src/lib.rs /Users/chef/.cargo/git/checkouts/dcap-qvl-dc8ba9b4327501db/c9483bc/src/collateral.rs /Users/chef/.cargo/git/checkouts/dcap-qvl-dc8ba9b4327501db/c9483bc/src/oids.rs /Users/chef/.cargo/git/checkouts/dcap-qvl-dc8ba9b4327501db/c9483bc/src/constants.rs /Users/chef/.cargo/git/checkouts/dcap-qvl-dc8ba9b4327501db/c9483bc/src/intel.rs /Users/chef/.cargo/git/checkouts/dcap-qvl-dc8ba9b4327501db/c9483bc/src/tcb_info.rs /Users/chef/.cargo/git/checkouts/dcap-qvl-dc8ba9b4327501db/c9483bc/src/utils.rs /Users/chef/.cargo/git/checkouts/dcap-qvl-dc8ba9b4327501db/c9483bc/src/quote.rs /Users/chef/.cargo/git/checkouts/dcap-qvl-dc8ba9b4327501db/c9483bc/src/verify.rs /Users/chef/.cargo/git/checkouts/dcap-qvl-dc8ba9b4327501db/c9483bc/src/TrustedRootCA.der
+
+/Users/chef/.cargo/git/checkouts/dcap-qvl-dc8ba9b4327501db/c9483bc/src/lib.rs:
+/Users/chef/.cargo/git/checkouts/dcap-qvl-dc8ba9b4327501db/c9483bc/src/collateral.rs:
+/Users/chef/.cargo/git/checkouts/dcap-qvl-dc8ba9b4327501db/c9483bc/src/oids.rs:
+/Users/chef/.cargo/git/checkouts/dcap-qvl-dc8ba9b4327501db/c9483bc/src/constants.rs:
+/Users/chef/.cargo/git/checkouts/dcap-qvl-dc8ba9b4327501db/c9483bc/src/intel.rs:
+/Users/chef/.cargo/git/checkouts/dcap-qvl-dc8ba9b4327501db/c9483bc/src/tcb_info.rs:
+/Users/chef/.cargo/git/checkouts/dcap-qvl-dc8ba9b4327501db/c9483bc/src/utils.rs:
+/Users/chef/.cargo/git/checkouts/dcap-qvl-dc8ba9b4327501db/c9483bc/src/quote.rs:
+/Users/chef/.cargo/git/checkouts/dcap-qvl-dc8ba9b4327501db/c9483bc/src/verify.rs:
+/Users/chef/.cargo/git/checkouts/dcap-qvl-dc8ba9b4327501db/c9483bc/src/TrustedRootCA.der:
