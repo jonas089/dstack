@@ -10,7 +10,7 @@ use anyhow::{anyhow, bail, Context, Result};
 use dcap_qvl::quote::Quote;
 use qvl::{
     quote::{EnclaveReport, Report, TDReport10, TDReport15},
-    verify::VerifiedReport,
+    verify::{verify, VerifiedReport},
     QuoteCollateralV3,
 };
 use serde::Serialize;
@@ -348,7 +348,7 @@ impl Attestation {
     }
 
     /// Verify the quote with collateral
-    pub async fn verify_with_collateral(
+    pub fn verify_with_collateral(
         self,
         report_data: &[u8; 64],
         collateral: QuoteCollateralV3,
@@ -358,9 +358,7 @@ impl Attestation {
         if &self.decode_report_data()? != report_data {
             bail!("report data mismatch");
         }
-        let report = qvl::collateral::verify_collateral(quote, &collateral, now)
-            .await
-            .context("Failed to get collateral")?;
+        let report = verify(quote, &collateral, now).unwrap();
         if let Some(report) = report.report.as_td10() {
             // Replay the event logs
             let rtmrs = self

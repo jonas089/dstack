@@ -1,5 +1,32 @@
-   0.325344708s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="dstack_sdk"}: cargo::core::compiler::fingerprint: fingerprint error for dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("dstack_sdk", ["lib"], "/Users/chef/Desktop/dstack/sdk/rust/src/lib.rs", Edition2021) }
-   0.325370708s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="dstack_sdk"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/dstack-sdk-073a6c73a25bd97f/lib-dstack_sdk`
+   0.281190625s  INFO prepare_target{force=false package_id=cert-client v0.5.5 (/Users/chef/Desktop/dstack/cert-client) target="cert_client"}: cargo::core::compiler::fingerprint: stale: changed "/Users/chef/Desktop/dstack/ra-tls/src/attestation.rs"
+   0.281208084s  INFO prepare_target{force=false package_id=cert-client v0.5.5 (/Users/chef/Desktop/dstack/cert-client) target="cert_client"}: cargo::core::compiler::fingerprint:           (vs) "/Users/chef/Desktop/dstack/target/debug/.fingerprint/ra-tls-83586e8a3ed76fdb/dep-lib-ra_tls"
+   0.281211375s  INFO prepare_target{force=false package_id=cert-client v0.5.5 (/Users/chef/Desktop/dstack/cert-client) target="cert_client"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1766508079, nanos: 493572836 } < FileTime { seconds: 1766508085, nanos: 287614207 }
+   0.284855750s  INFO prepare_target{force=false package_id=cert-client v0.5.5 (/Users/chef/Desktop/dstack/cert-client) target="cert_client"}: cargo::core::compiler::fingerprint: fingerprint dirty for cert-client v0.5.5 (/Users/chef/Desktop/dstack/cert-client)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("cert_client", ["lib"], "/Users/chef/Desktop/dstack/cert-client/src/lib.rs", Edition2021) }
+   0.284874834s  INFO prepare_target{force=false package_id=cert-client v0.5.5 (/Users/chef/Desktop/dstack/cert-client) target="cert_client"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "ra_rpc" })
+   0.288572959s  INFO prepare_target{force=false package_id=ra-rpc v0.5.5 (/Users/chef/Desktop/dstack/ra-rpc) target="ra_rpc"}: cargo::core::compiler::fingerprint: fingerprint dirty for ra-rpc v0.5.5 (/Users/chef/Desktop/dstack/ra-rpc)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ra_rpc", ["lib"], "/Users/chef/Desktop/dstack/ra-rpc/src/lib.rs", Edition2021) }
+   0.288580292s  INFO prepare_target{force=false package_id=ra-rpc v0.5.5 (/Users/chef/Desktop/dstack/ra-rpc) target="ra_rpc"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "ra_tls" })
+   0.289554917s  INFO prepare_target{force=false package_id=ra-tls v0.5.5 (/Users/chef/Desktop/dstack/ra-tls) target="ra_tls"}: cargo::core::compiler::fingerprint: fingerprint dirty for ra-tls v0.5.5 (/Users/chef/Desktop/dstack/ra-tls)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ra_tls", ["lib"], "/Users/chef/Desktop/dstack/ra-tls/src/lib.rs", Edition2021) }
+   0.289559875s  INFO prepare_target{force=false package_id=ra-tls v0.5.5 (/Users/chef/Desktop/dstack/ra-tls) target="ra_tls"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/Users/chef/Desktop/dstack/target/debug/.fingerprint/ra-tls-83586e8a3ed76fdb/dep-lib-ra_tls", reference_mtime: FileTime { seconds: 1766508079, nanos: 493572836 }, stale: "/Users/chef/Desktop/dstack/ra-tls/src/attestation.rs", stale_mtime: FileTime { seconds: 1766508085, nanos: 287614207 } }))
+   0.300326042s  INFO prepare_target{force=false package_id=cert-client v0.5.5 (/Users/chef/Desktop/dstack/cert-client) target="cert_client"}: cargo::core::compiler::fingerprint: fingerprint dirty for cert-client v0.5.5 (/Users/chef/Desktop/dstack/cert-client)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("cert_client", ["lib"], "/Users/chef/Desktop/dstack/cert-client/src/lib.rs", Edition2021) }
+   0.300339750s  INFO prepare_target{force=false package_id=cert-client v0.5.5 (/Users/chef/Desktop/dstack/cert-client) target="cert_client"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "ra_rpc" })
+   0.312512750s  INFO prepare_target{force=false package_id=ct_monitor v0.5.5 (/Users/chef/Desktop/dstack/ct_monitor) target="ct_monitor"}: cargo::core::compiler::fingerprint: fingerprint dirty for ct_monitor v0.5.5 (/Users/chef/Desktop/dstack/ct_monitor)/Check { test: false }/TargetInner { name: "ct_monitor", doc: true, ..: with_path("/Users/chef/Desktop/dstack/ct_monitor/src/main.rs", Edition2021) }
+   0.312528084s  INFO prepare_target{force=false package_id=ct_monitor v0.5.5 (/Users/chef/Desktop/dstack/ct_monitor) target="ct_monitor"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "ra_rpc" })
+   0.313789000s  INFO prepare_target{force=false package_id=ct_monitor v0.5.5 (/Users/chef/Desktop/dstack/ct_monitor) target="ct_monitor"}: cargo::core::compiler::fingerprint: fingerprint dirty for ct_monitor v0.5.5 (/Users/chef/Desktop/dstack/ct_monitor)/Check { test: true }/TargetInner { name: "ct_monitor", doc: true, ..: with_path("/Users/chef/Desktop/dstack/ct_monitor/src/main.rs", Edition2021) }
+   0.313796167s  INFO prepare_target{force=false package_id=ct_monitor v0.5.5 (/Users/chef/Desktop/dstack/ct_monitor) target="ct_monitor"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "ra_rpc" })
+   0.324697334s  INFO prepare_target{force=false package_id=dstack-gateway v0.5.5 (/Users/chef/Desktop/dstack/gateway) target="dstack-gateway"}: cargo::core::compiler::fingerprint: fingerprint dirty for dstack-gateway v0.5.5 (/Users/chef/Desktop/dstack/gateway)/Check { test: false }/TargetInner { name: "dstack-gateway", doc: true, ..: with_path("/Users/chef/Desktop/dstack/gateway/src/main.rs", Edition2021) }
+   0.324711792s  INFO prepare_target{force=false package_id=dstack-gateway v0.5.5 (/Users/chef/Desktop/dstack/gateway) target="dstack-gateway"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "ra_rpc" })
+   0.327916084s  INFO prepare_target{force=false package_id=dstack-gateway v0.5.5 (/Users/chef/Desktop/dstack/gateway) target="dstack-gateway"}: cargo::core::compiler::fingerprint: fingerprint dirty for dstack-gateway v0.5.5 (/Users/chef/Desktop/dstack/gateway)/Check { test: true }/TargetInner { name: "dstack-gateway", doc: true, ..: with_path("/Users/chef/Desktop/dstack/gateway/src/main.rs", Edition2021) }
+   0.327922250s  INFO prepare_target{force=false package_id=dstack-gateway v0.5.5 (/Users/chef/Desktop/dstack/gateway) target="dstack-gateway"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "ra_rpc" })
+   0.347212834s  INFO prepare_target{force=false package_id=dstack-guest-agent v0.5.5 (/Users/chef/Desktop/dstack/guest-agent) target="dstack-guest-agent"}: cargo::core::compiler::fingerprint: fingerprint dirty for dstack-guest-agent v0.5.5 (/Users/chef/Desktop/dstack/guest-agent)/Check { test: false }/TargetInner { name: "dstack-guest-agent", doc: true, ..: with_path("/Users/chef/Desktop/dstack/guest-agent/src/main.rs", Edition2021) }
+   0.347227292s  INFO prepare_target{force=false package_id=dstack-guest-agent v0.5.5 (/Users/chef/Desktop/dstack/guest-agent) target="dstack-guest-agent"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "ra_rpc" })
+   0.350317334s  INFO prepare_target{force=false package_id=dstack-guest-agent v0.5.5 (/Users/chef/Desktop/dstack/guest-agent) target="dstack-guest-agent"}: cargo::core::compiler::fingerprint: fingerprint dirty for dstack-guest-agent v0.5.5 (/Users/chef/Desktop/dstack/guest-agent)/Check { test: true }/TargetInner { name: "dstack-guest-agent", doc: true, ..: with_path("/Users/chef/Desktop/dstack/guest-agent/src/main.rs", Edition2021) }
+   0.350327959s  INFO prepare_target{force=false package_id=dstack-guest-agent v0.5.5 (/Users/chef/Desktop/dstack/guest-agent) target="dstack-guest-agent"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "ra_rpc" })
+   0.352454292s  INFO prepare_target{force=false package_id=dstack-kms v0.5.5 (/Users/chef/Desktop/dstack/kms) target="dstack-kms"}: cargo::core::compiler::fingerprint: fingerprint dirty for dstack-kms v0.5.5 (/Users/chef/Desktop/dstack/kms)/Check { test: false }/TargetInner { name: "dstack-kms", doc: true, ..: with_path("/Users/chef/Desktop/dstack/kms/src/main.rs", Edition2021) }
+   0.352460375s  INFO prepare_target{force=false package_id=dstack-kms v0.5.5 (/Users/chef/Desktop/dstack/kms) target="dstack-kms"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "ra_rpc" })
+   0.354114250s  INFO prepare_target{force=false package_id=dstack-kms v0.5.5 (/Users/chef/Desktop/dstack/kms) target="dstack-kms"}: cargo::core::compiler::fingerprint: fingerprint dirty for dstack-kms v0.5.5 (/Users/chef/Desktop/dstack/kms)/Check { test: true }/TargetInner { name: "dstack-kms", doc: true, ..: with_path("/Users/chef/Desktop/dstack/kms/src/main.rs", Edition2021) }
+   0.354119292s  INFO prepare_target{force=false package_id=dstack-kms v0.5.5 (/Users/chef/Desktop/dstack/kms) target="dstack-kms"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "ra_rpc" })
+   0.358191834s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="dstack_sdk"}: cargo::core::compiler::fingerprint: fingerprint error for dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("dstack_sdk", ["lib"], "/Users/chef/Desktop/dstack/sdk/rust/src/lib.rs", Edition2021) }
+   0.358200209s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="dstack_sdk"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/dstack-sdk-073a6c73a25bd97f/lib-dstack_sdk`
 
 Caused by:
     No such file or directory (os error 2)
@@ -23,8 +50,8 @@ Stack backtrace:
   15: std::rt::lang_start::<()>::{closure#0}
   16: std::rt::lang_start_internal
   17: _main
-   0.328085875s  INFO prepare_target{force=false package_id=alloy v1.0.32 target="alloy"}: cargo::core::compiler::fingerprint: fingerprint error for alloy v1.0.32/Check { test: false }/TargetInner { ..: lib_target("alloy", ["lib"], "/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-1.0.32/src/lib.rs", Edition2021) }
-   0.328094750s  INFO prepare_target{force=false package_id=alloy v1.0.32 target="alloy"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/alloy-8296f088e9f4557a/lib-alloy`
+   0.360905250s  INFO prepare_target{force=false package_id=alloy v1.0.32 target="alloy"}: cargo::core::compiler::fingerprint: fingerprint error for alloy v1.0.32/Check { test: false }/TargetInner { ..: lib_target("alloy", ["lib"], "/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-1.0.32/src/lib.rs", Edition2021) }
+   0.360913459s  INFO prepare_target{force=false package_id=alloy v1.0.32 target="alloy"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/alloy-8296f088e9f4557a/lib-alloy`
 
 Caused by:
     No such file or directory (os error 2)
@@ -49,8 +76,8 @@ Stack backtrace:
   16: std::rt::lang_start::<()>::{closure#0}
   17: std::rt::lang_start_internal
   18: _main
-   0.328991875s  INFO prepare_target{force=false package_id=alloy-signer-local v1.0.32 target="alloy_signer_local"}: cargo::core::compiler::fingerprint: fingerprint error for alloy-signer-local v1.0.32/Check { test: false }/TargetInner { ..: lib_target("alloy_signer_local", ["lib"], "/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-signer-local-1.0.32/src/lib.rs", Edition2021) }
-   0.328997833s  INFO prepare_target{force=false package_id=alloy-signer-local v1.0.32 target="alloy_signer_local"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/alloy-signer-local-95748acff9ee260e/lib-alloy_signer_local`
+   0.361853875s  INFO prepare_target{force=false package_id=alloy-signer-local v1.0.32 target="alloy_signer_local"}: cargo::core::compiler::fingerprint: fingerprint error for alloy-signer-local v1.0.32/Check { test: false }/TargetInner { ..: lib_target("alloy_signer_local", ["lib"], "/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-signer-local-1.0.32/src/lib.rs", Edition2021) }
+   0.361858417s  INFO prepare_target{force=false package_id=alloy-signer-local v1.0.32 target="alloy_signer_local"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/alloy-signer-local-95748acff9ee260e/lib-alloy_signer_local`
 
 Caused by:
     No such file or directory (os error 2)
@@ -76,8 +103,8 @@ Stack backtrace:
   17: std::rt::lang_start::<()>::{closure#0}
   18: std::rt::lang_start_internal
   19: _main
-   0.329329833s  INFO prepare_target{force=false package_id=alloy-consensus v1.0.32 target="alloy_consensus"}: cargo::core::compiler::fingerprint: fingerprint error for alloy-consensus v1.0.32/Check { test: false }/TargetInner { ..: lib_target("alloy_consensus", ["lib"], "/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-consensus-1.0.32/src/lib.rs", Edition2021) }
-   0.329333958s  INFO prepare_target{force=false package_id=alloy-consensus v1.0.32 target="alloy_consensus"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/alloy-consensus-a69fb6df8f6f9f0a/lib-alloy_consensus`
+   0.362194834s  INFO prepare_target{force=false package_id=alloy-consensus v1.0.32 target="alloy_consensus"}: cargo::core::compiler::fingerprint: fingerprint error for alloy-consensus v1.0.32/Check { test: false }/TargetInner { ..: lib_target("alloy_consensus", ["lib"], "/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-consensus-1.0.32/src/lib.rs", Edition2021) }
+   0.362198625s  INFO prepare_target{force=false package_id=alloy-consensus v1.0.32 target="alloy_consensus"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/alloy-consensus-a69fb6df8f6f9f0a/lib-alloy_consensus`
 
 Caused by:
     No such file or directory (os error 2)
@@ -104,8 +131,8 @@ Stack backtrace:
   18: std::rt::lang_start::<()>::{closure#0}
   19: std::rt::lang_start_internal
   20: _main
-   0.330353375s  INFO prepare_target{force=false package_id=alloy-network v1.0.32 target="alloy_network"}: cargo::core::compiler::fingerprint: fingerprint error for alloy-network v1.0.32/Check { test: false }/TargetInner { ..: lib_target("alloy_network", ["lib"], "/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-network-1.0.32/src/lib.rs", Edition2021) }
-   0.330362166s  INFO prepare_target{force=false package_id=alloy-network v1.0.32 target="alloy_network"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/alloy-network-9c8706e0d62b5018/lib-alloy_network`
+   0.364884459s  INFO prepare_target{force=false package_id=alloy-network v1.0.32 target="alloy_network"}: cargo::core::compiler::fingerprint: fingerprint error for alloy-network v1.0.32/Check { test: false }/TargetInner { ..: lib_target("alloy_network", ["lib"], "/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-network-1.0.32/src/lib.rs", Edition2021) }
+   0.364894875s  INFO prepare_target{force=false package_id=alloy-network v1.0.32 target="alloy_network"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/alloy-network-9c8706e0d62b5018/lib-alloy_network`
 
 Caused by:
     No such file or directory (os error 2)
@@ -132,8 +159,8 @@ Stack backtrace:
   18: std::rt::lang_start::<()>::{closure#0}
   19: std::rt::lang_start_internal
   20: _main
-   0.330892000s  INFO prepare_target{force=false package_id=alloy-consensus-any v1.0.32 target="alloy_consensus_any"}: cargo::core::compiler::fingerprint: fingerprint error for alloy-consensus-any v1.0.32/Check { test: false }/TargetInner { ..: lib_target("alloy_consensus_any", ["lib"], "/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-consensus-any-1.0.32/src/lib.rs", Edition2021) }
-   0.330897333s  INFO prepare_target{force=false package_id=alloy-consensus-any v1.0.32 target="alloy_consensus_any"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/alloy-consensus-any-a4135dde446c17ff/lib-alloy_consensus_any`
+   0.365506334s  INFO prepare_target{force=false package_id=alloy-consensus-any v1.0.32 target="alloy_consensus_any"}: cargo::core::compiler::fingerprint: fingerprint error for alloy-consensus-any v1.0.32/Check { test: false }/TargetInner { ..: lib_target("alloy_consensus_any", ["lib"], "/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-consensus-any-1.0.32/src/lib.rs", Edition2021) }
+   0.365514042s  INFO prepare_target{force=false package_id=alloy-consensus-any v1.0.32 target="alloy_consensus_any"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/alloy-consensus-any-a4135dde446c17ff/lib-alloy_consensus_any`
 
 Caused by:
     No such file or directory (os error 2)
@@ -161,8 +188,8 @@ Stack backtrace:
   19: std::rt::lang_start::<()>::{closure#0}
   20: std::rt::lang_start_internal
   21: _main
-   0.331381791s  INFO prepare_target{force=false package_id=alloy-network-primitives v1.0.32 target="alloy_network_primitives"}: cargo::core::compiler::fingerprint: fingerprint error for alloy-network-primitives v1.0.32/Check { test: false }/TargetInner { ..: lib_target("alloy_network_primitives", ["lib"], "/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-network-primitives-1.0.32/src/lib.rs", Edition2021) }
-   0.331386041s  INFO prepare_target{force=false package_id=alloy-network-primitives v1.0.32 target="alloy_network_primitives"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/alloy-network-primitives-db88bced3da38e1c/lib-alloy_network_primitives`
+   0.366018459s  INFO prepare_target{force=false package_id=alloy-network-primitives v1.0.32 target="alloy_network_primitives"}: cargo::core::compiler::fingerprint: fingerprint error for alloy-network-primitives v1.0.32/Check { test: false }/TargetInner { ..: lib_target("alloy_network_primitives", ["lib"], "/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-network-primitives-1.0.32/src/lib.rs", Edition2021) }
+   0.366024125s  INFO prepare_target{force=false package_id=alloy-network-primitives v1.0.32 target="alloy_network_primitives"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/alloy-network-primitives-db88bced3da38e1c/lib-alloy_network_primitives`
 
 Caused by:
     No such file or directory (os error 2)
@@ -190,8 +217,8 @@ Stack backtrace:
   19: std::rt::lang_start::<()>::{closure#0}
   20: std::rt::lang_start_internal
   21: _main
-   0.331623875s  INFO prepare_target{force=false package_id=alloy-rpc-types-any v1.0.32 target="alloy_rpc_types_any"}: cargo::core::compiler::fingerprint: fingerprint error for alloy-rpc-types-any v1.0.32/Check { test: false }/TargetInner { ..: lib_target("alloy_rpc_types_any", ["lib"], "/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-rpc-types-any-1.0.32/src/lib.rs", Edition2021) }
-   0.331627708s  INFO prepare_target{force=false package_id=alloy-rpc-types-any v1.0.32 target="alloy_rpc_types_any"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/alloy-rpc-types-any-b18960e47bf26d45/lib-alloy_rpc_types_any`
+   0.366254209s  INFO prepare_target{force=false package_id=alloy-rpc-types-any v1.0.32 target="alloy_rpc_types_any"}: cargo::core::compiler::fingerprint: fingerprint error for alloy-rpc-types-any v1.0.32/Check { test: false }/TargetInner { ..: lib_target("alloy_rpc_types_any", ["lib"], "/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-rpc-types-any-1.0.32/src/lib.rs", Edition2021) }
+   0.366258875s  INFO prepare_target{force=false package_id=alloy-rpc-types-any v1.0.32 target="alloy_rpc_types_any"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/alloy-rpc-types-any-b18960e47bf26d45/lib-alloy_rpc_types_any`
 
 Caused by:
     No such file or directory (os error 2)
@@ -219,8 +246,8 @@ Stack backtrace:
   19: std::rt::lang_start::<()>::{closure#0}
   20: std::rt::lang_start_internal
   21: _main
-   0.331842166s  INFO prepare_target{force=false package_id=alloy-rpc-types-eth v1.0.32 target="alloy_rpc_types_eth"}: cargo::core::compiler::fingerprint: fingerprint error for alloy-rpc-types-eth v1.0.32/Check { test: false }/TargetInner { ..: lib_target("alloy_rpc_types_eth", ["lib"], "/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-rpc-types-eth-1.0.32/src/lib.rs", Edition2021) }
-   0.331847958s  INFO prepare_target{force=false package_id=alloy-rpc-types-eth v1.0.32 target="alloy_rpc_types_eth"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/alloy-rpc-types-eth-2e10b6d041a9896f/lib-alloy_rpc_types_eth`
+   0.366456375s  INFO prepare_target{force=false package_id=alloy-rpc-types-eth v1.0.32 target="alloy_rpc_types_eth"}: cargo::core::compiler::fingerprint: fingerprint error for alloy-rpc-types-eth v1.0.32/Check { test: false }/TargetInner { ..: lib_target("alloy_rpc_types_eth", ["lib"], "/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-rpc-types-eth-1.0.32/src/lib.rs", Edition2021) }
+   0.366460875s  INFO prepare_target{force=false package_id=alloy-rpc-types-eth v1.0.32 target="alloy_rpc_types_eth"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/alloy-rpc-types-eth-2e10b6d041a9896f/lib-alloy_rpc_types_eth`
 
 Caused by:
     No such file or directory (os error 2)
@@ -249,8 +276,8 @@ Stack backtrace:
   20: std::rt::lang_start::<()>::{closure#0}
   21: std::rt::lang_start_internal
   22: _main
-   0.332663500s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="dstack_sdk"}: cargo::core::compiler::fingerprint: fingerprint error for dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("dstack_sdk", ["lib"], "/Users/chef/Desktop/dstack/sdk/rust/src/lib.rs", Edition2021) }
-   0.332668000s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="dstack_sdk"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/dstack-sdk-a25f124bae481b2d/test-lib-dstack_sdk`
+   0.367215834s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="dstack_sdk"}: cargo::core::compiler::fingerprint: fingerprint error for dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("dstack_sdk", ["lib"], "/Users/chef/Desktop/dstack/sdk/rust/src/lib.rs", Edition2021) }
+   0.367221000s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="dstack_sdk"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/dstack-sdk-a25f124bae481b2d/test-lib-dstack_sdk`
 
 Caused by:
     No such file or directory (os error 2)
@@ -274,8 +301,8 @@ Stack backtrace:
   15: std::rt::lang_start::<()>::{closure#0}
   16: std::rt::lang_start_internal
   17: _main
-   0.333410041s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="test_client"}: cargo::core::compiler::fingerprint: fingerprint error for dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust)/Check { test: true }/TargetInner { kind: "test", name: "test_client", benched: false, ..: with_path("/Users/chef/Desktop/dstack/sdk/rust/tests/test_client.rs", Edition2021) }
-   0.333415166s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="test_client"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/dstack-sdk-c66dfcb2affe490a/test-integration-test-test_client`
+   0.367908959s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="test_client"}: cargo::core::compiler::fingerprint: fingerprint error for dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust)/Check { test: true }/TargetInner { kind: "test", name: "test_client", benched: false, ..: with_path("/Users/chef/Desktop/dstack/sdk/rust/tests/test_client.rs", Edition2021) }
+   0.367914209s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="test_client"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/dstack-sdk-c66dfcb2affe490a/test-integration-test-test_client`
 
 Caused by:
     No such file or directory (os error 2)
@@ -299,8 +326,8 @@ Stack backtrace:
   15: std::rt::lang_start::<()>::{closure#0}
   16: std::rt::lang_start_internal
   17: _main
-   0.334074416s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="test_eth"}: cargo::core::compiler::fingerprint: fingerprint error for dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust)/Check { test: true }/TargetInner { kind: "test", name: "test_eth", benched: false, ..: with_path("/Users/chef/Desktop/dstack/sdk/rust/tests/test_eth.rs", Edition2021) }
-   0.334079083s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="test_eth"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/dstack-sdk-485c4808ffecac6b/test-integration-test-test_eth`
+   0.368543834s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="test_eth"}: cargo::core::compiler::fingerprint: fingerprint error for dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust)/Check { test: true }/TargetInner { kind: "test", name: "test_eth", benched: false, ..: with_path("/Users/chef/Desktop/dstack/sdk/rust/tests/test_eth.rs", Edition2021) }
+   0.368548084s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="test_eth"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/dstack-sdk-485c4808ffecac6b/test-integration-test-test_eth`
 
 Caused by:
     No such file or directory (os error 2)
@@ -324,8 +351,8 @@ Stack backtrace:
   15: std::rt::lang_start::<()>::{closure#0}
   16: std::rt::lang_start_internal
   17: _main
-   0.334709875s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="test_tappd_client"}: cargo::core::compiler::fingerprint: fingerprint error for dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust)/Check { test: true }/TargetInner { kind: "test", name: "test_tappd_client", benched: false, ..: with_path("/Users/chef/Desktop/dstack/sdk/rust/tests/test_tappd_client.rs", Edition2021) }
-   0.334714250s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="test_tappd_client"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/dstack-sdk-41bdf7f0a41615a9/test-integration-test-test_tappd_client`
+   0.369153250s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="test_tappd_client"}: cargo::core::compiler::fingerprint: fingerprint error for dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust)/Check { test: true }/TargetInner { kind: "test", name: "test_tappd_client", benched: false, ..: with_path("/Users/chef/Desktop/dstack/sdk/rust/tests/test_tappd_client.rs", Edition2021) }
+   0.369157834s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="test_tappd_client"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/dstack-sdk-41bdf7f0a41615a9/test-integration-test-test_tappd_client`
 
 Caused by:
     No such file or directory (os error 2)
@@ -349,8 +376,8 @@ Stack backtrace:
   15: std::rt::lang_start::<()>::{closure#0}
   16: std::rt::lang_start_internal
   17: _main
-   0.335340083s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="dstack_client_usage"}: cargo::core::compiler::fingerprint: fingerprint error for dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust)/Check { test: false }/TargetInner { kind: "example", name: "dstack_client_usage", tested: false, benched: false, ..: with_path("/Users/chef/Desktop/dstack/sdk/rust/examples/dstack_client_usage.rs", Edition2021) }
-   0.335345583s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="dstack_client_usage"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/dstack-sdk-ae36a516a2d2c41b/example-dstack_client_usage`
+   0.369747375s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="dstack_client_usage"}: cargo::core::compiler::fingerprint: fingerprint error for dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust)/Check { test: false }/TargetInner { kind: "example", name: "dstack_client_usage", tested: false, benched: false, ..: with_path("/Users/chef/Desktop/dstack/sdk/rust/examples/dstack_client_usage.rs", Edition2021) }
+   0.369752167s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="dstack_client_usage"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/dstack-sdk-ae36a516a2d2c41b/example-dstack_client_usage`
 
 Caused by:
     No such file or directory (os error 2)
@@ -374,8 +401,8 @@ Stack backtrace:
   15: std::rt::lang_start::<()>::{closure#0}
   16: std::rt::lang_start_internal
   17: _main
-   0.335975375s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="tappd_client_usage"}: cargo::core::compiler::fingerprint: fingerprint error for dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust)/Check { test: false }/TargetInner { kind: "example", name: "tappd_client_usage", tested: false, benched: false, ..: with_path("/Users/chef/Desktop/dstack/sdk/rust/examples/tappd_client_usage.rs", Edition2021) }
-   0.335984833s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="tappd_client_usage"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/dstack-sdk-372a69c9bddc16ca/example-tappd_client_usage`
+   0.370352959s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="tappd_client_usage"}: cargo::core::compiler::fingerprint: fingerprint error for dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust)/Check { test: false }/TargetInner { kind: "example", name: "tappd_client_usage", tested: false, benched: false, ..: with_path("/Users/chef/Desktop/dstack/sdk/rust/examples/tappd_client_usage.rs", Edition2021) }
+   0.370357042s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="tappd_client_usage"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/dstack-sdk-372a69c9bddc16ca/example-tappd_client_usage`
 
 Caused by:
     No such file or directory (os error 2)
@@ -399,25 +426,44 @@ Stack backtrace:
   15: std::rt::lang_start::<()>::{closure#0}
   16: std::rt::lang_start_internal
   17: _main
-   0.339084375s  INFO prepare_target{force=false package_id=dstack-util v0.5.5 (/Users/chef/Desktop/dstack/dstack-util) target="dstack-util"}: cargo::core::compiler::fingerprint: dependency on `xsalsa20poly1305` is newer than we are 1766502251.453942100s > 1766502196.034919649s "/Users/chef/Desktop/dstack/sodiumbox"
-   0.339201833s  INFO prepare_target{force=false package_id=dstack-util v0.5.5 (/Users/chef/Desktop/dstack/dstack-util) target="dstack-util"}: cargo::core::compiler::fingerprint: fingerprint dirty for dstack-util v0.5.5 (/Users/chef/Desktop/dstack/dstack-util)/Check { test: false }/TargetInner { name: "dstack-util", doc: true, ..: with_path("/Users/chef/Desktop/dstack/dstack-util/src/main.rs", Edition2021) }
-   0.339209541s  INFO prepare_target{force=false package_id=dstack-util v0.5.5 (/Users/chef/Desktop/dstack/dstack-util) target="dstack-util"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "sodiumbox" })
-   0.342104541s  INFO prepare_target{force=false package_id=sodiumbox v0.1.0 (/Users/chef/Desktop/dstack/sodiumbox) target="sodiumbox"}: cargo::core::compiler::fingerprint: fingerprint dirty for sodiumbox v0.1.0 (/Users/chef/Desktop/dstack/sodiumbox)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sodiumbox", ["lib"], "/Users/chef/Desktop/dstack/sodiumbox/src/lib.rs", Edition2021) }
-   0.342112000s  INFO prepare_target{force=false package_id=sodiumbox v0.1.0 (/Users/chef/Desktop/dstack/sodiumbox) target="sodiumbox"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "xsalsa20poly1305", dep_mtime: FileTime { seconds: 1766502251, nanos: 453942100 }, max_mtime: FileTime { seconds: 1766502196, nanos: 34919649 } })
-   0.342511958s  INFO prepare_target{force=false package_id=dstack-util v0.5.5 (/Users/chef/Desktop/dstack/dstack-util) target="dstack-util"}: cargo::core::compiler::fingerprint: fingerprint dirty for dstack-util v0.5.5 (/Users/chef/Desktop/dstack/dstack-util)/Check { test: true }/TargetInner { name: "dstack-util", doc: true, ..: with_path("/Users/chef/Desktop/dstack/dstack-util/src/main.rs", Edition2021) }
-   0.342516708s  INFO prepare_target{force=false package_id=dstack-util v0.5.5 (/Users/chef/Desktop/dstack/dstack-util) target="dstack-util"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "sodiumbox" })
-   0.354794875s  INFO prepare_target{force=false package_id=supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor) target="supervisor"}: cargo::core::compiler::fingerprint: stale: changed "/Users/chef/Desktop/dstack/.git/index"
-   0.354802000s  INFO prepare_target{force=false package_id=supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor) target="supervisor"}: cargo::core::compiler::fingerprint:           (vs) "/Users/chef/Desktop/dstack/target/debug/.fingerprint/supervisor-3670de81e05b36d2/dep-bin-supervisor"
-   0.354803833s  INFO prepare_target{force=false package_id=supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor) target="supervisor"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1766506621, nanos: 132930815 } < FileTime { seconds: 1766506621, nanos: 308263722 }
-   0.354867666s  INFO prepare_target{force=false package_id=supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor) target="supervisor"}: cargo::core::compiler::fingerprint: fingerprint dirty for supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor)/Check { test: false }/TargetInner { name: "supervisor", doc: true, ..: with_path("/Users/chef/Desktop/dstack/supervisor/src/main.rs", Edition2021) }
-   0.354874875s  INFO prepare_target{force=false package_id=supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor) target="supervisor"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/Users/chef/Desktop/dstack/target/debug/.fingerprint/supervisor-3670de81e05b36d2/dep-bin-supervisor", reference_mtime: FileTime { seconds: 1766506621, nanos: 132930815 }, stale: "/Users/chef/Desktop/dstack/.git/index", stale_mtime: FileTime { seconds: 1766506621, nanos: 308263722 } }))
-   0.355730333s  INFO prepare_target{force=false package_id=supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor) target="supervisor"}: cargo::core::compiler::fingerprint: stale: changed "/Users/chef/Desktop/dstack/.git/index"
-   0.355733458s  INFO prepare_target{force=false package_id=supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor) target="supervisor"}: cargo::core::compiler::fingerprint:           (vs) "/Users/chef/Desktop/dstack/target/debug/.fingerprint/supervisor-fda32eeba3cfba41/dep-test-bin-supervisor"
-   0.355734833s  INFO prepare_target{force=false package_id=supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor) target="supervisor"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1766506621, nanos: 132988523 } < FileTime { seconds: 1766506621, nanos: 308263722 }
-   0.355787208s  INFO prepare_target{force=false package_id=supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor) target="supervisor"}: cargo::core::compiler::fingerprint: fingerprint dirty for supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor)/Check { test: true }/TargetInner { name: "supervisor", doc: true, ..: with_path("/Users/chef/Desktop/dstack/supervisor/src/main.rs", Edition2021) }
-   0.355791458s  INFO prepare_target{force=false package_id=supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor) target="supervisor"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/Users/chef/Desktop/dstack/target/debug/.fingerprint/supervisor-fda32eeba3cfba41/dep-test-bin-supervisor", reference_mtime: FileTime { seconds: 1766506621, nanos: 132988523 }, stale: "/Users/chef/Desktop/dstack/.git/index", stale_mtime: FileTime { seconds: 1766506621, nanos: 308263722 } }))
-   0.361869916s  INFO prepare_target{force=false package_id=tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys) target="tdx_attest_sys"}: cargo::core::compiler::fingerprint: fingerprint error for tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("tdx_attest_sys", ["lib"], "/Users/chef/Desktop/dstack/tdx-attest-sys/src/lib.rs", Edition2021) }
-   0.361884083s  INFO prepare_target{force=false package_id=tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys) target="tdx_attest_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/tdx-attest-sys-f0e1da10b8aff63c/lib-tdx_attest_sys`
+   0.373136334s  INFO prepare_target{force=false package_id=dstack-util v0.5.5 (/Users/chef/Desktop/dstack/dstack-util) target="dstack-util"}: cargo::core::compiler::fingerprint: dependency on `xsalsa20poly1305` is newer than we are 1766502251.453942100s > 1766502196.034919649s "/Users/chef/Desktop/dstack/sodiumbox"
+   0.373235959s  INFO prepare_target{force=false package_id=dstack-util v0.5.5 (/Users/chef/Desktop/dstack/dstack-util) target="dstack-util"}: cargo::core::compiler::fingerprint: fingerprint dirty for dstack-util v0.5.5 (/Users/chef/Desktop/dstack/dstack-util)/Check { test: false }/TargetInner { name: "dstack-util", doc: true, ..: with_path("/Users/chef/Desktop/dstack/dstack-util/src/main.rs", Edition2021) }
+   0.373240917s  INFO prepare_target{force=false package_id=dstack-util v0.5.5 (/Users/chef/Desktop/dstack/dstack-util) target="dstack-util"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "ra_rpc" })
+   0.376155042s  INFO prepare_target{force=false package_id=sodiumbox v0.1.0 (/Users/chef/Desktop/dstack/sodiumbox) target="sodiumbox"}: cargo::core::compiler::fingerprint: fingerprint dirty for sodiumbox v0.1.0 (/Users/chef/Desktop/dstack/sodiumbox)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sodiumbox", ["lib"], "/Users/chef/Desktop/dstack/sodiumbox/src/lib.rs", Edition2021) }
+   0.376165917s  INFO prepare_target{force=false package_id=sodiumbox v0.1.0 (/Users/chef/Desktop/dstack/sodiumbox) target="sodiumbox"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "xsalsa20poly1305", dep_mtime: FileTime { seconds: 1766502251, nanos: 453942100 }, max_mtime: FileTime { seconds: 1766502196, nanos: 34919649 } })
+   0.376593375s  INFO prepare_target{force=false package_id=dstack-util v0.5.5 (/Users/chef/Desktop/dstack/dstack-util) target="dstack-util"}: cargo::core::compiler::fingerprint: fingerprint dirty for dstack-util v0.5.5 (/Users/chef/Desktop/dstack/dstack-util)/Check { test: true }/TargetInner { name: "dstack-util", doc: true, ..: with_path("/Users/chef/Desktop/dstack/dstack-util/src/main.rs", Edition2021) }
+   0.376599584s  INFO prepare_target{force=false package_id=dstack-util v0.5.5 (/Users/chef/Desktop/dstack/dstack-util) target="dstack-util"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "ra_rpc" })
+   0.378157084s  INFO prepare_target{force=false package_id=dstack-verifier v0.5.5 (/Users/chef/Desktop/dstack/verifier) target="dstack_verifier"}: cargo::core::compiler::fingerprint: fingerprint dirty for dstack-verifier v0.5.5 (/Users/chef/Desktop/dstack/verifier)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("dstack_verifier", ["lib"], "/Users/chef/Desktop/dstack/verifier/src/lib.rs", Edition2021) }
+   0.378162792s  INFO prepare_target{force=false package_id=dstack-verifier v0.5.5 (/Users/chef/Desktop/dstack/verifier) target="dstack_verifier"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "ra_tls" })
+   0.379014000s  INFO prepare_target{force=false package_id=dstack-verifier v0.5.5 (/Users/chef/Desktop/dstack/verifier) target="dstack_verifier"}: cargo::core::compiler::fingerprint: fingerprint dirty for dstack-verifier v0.5.5 (/Users/chef/Desktop/dstack/verifier)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("dstack_verifier", ["lib"], "/Users/chef/Desktop/dstack/verifier/src/lib.rs", Edition2021) }
+   0.379018584s  INFO prepare_target{force=false package_id=dstack-verifier v0.5.5 (/Users/chef/Desktop/dstack/verifier) target="dstack_verifier"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "ra_tls" })
+   0.379920667s  INFO prepare_target{force=false package_id=dstack-verifier v0.5.5 (/Users/chef/Desktop/dstack/verifier) target="dstack-verifier"}: cargo::core::compiler::fingerprint: fingerprint dirty for dstack-verifier v0.5.5 (/Users/chef/Desktop/dstack/verifier)/Check { test: false }/TargetInner { name: "dstack-verifier", doc: true, ..: with_path("/Users/chef/Desktop/dstack/verifier/src/main.rs", Edition2021) }
+   0.379925500s  INFO prepare_target{force=false package_id=dstack-verifier v0.5.5 (/Users/chef/Desktop/dstack/verifier) target="dstack-verifier"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "ra_tls" })
+   0.380790209s  INFO prepare_target{force=false package_id=dstack-verifier v0.5.5 (/Users/chef/Desktop/dstack/verifier) target="dstack-verifier"}: cargo::core::compiler::fingerprint: fingerprint dirty for dstack-verifier v0.5.5 (/Users/chef/Desktop/dstack/verifier)/Check { test: true }/TargetInner { name: "dstack-verifier", doc: true, ..: with_path("/Users/chef/Desktop/dstack/verifier/src/main.rs", Edition2021) }
+   0.380793625s  INFO prepare_target{force=false package_id=dstack-verifier v0.5.5 (/Users/chef/Desktop/dstack/verifier) target="dstack-verifier"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "ra_tls" })
+   0.391073542s  INFO prepare_target{force=false package_id=dstack-vmm v0.5.5 (/Users/chef/Desktop/dstack/vmm) target="dstack-vmm"}: cargo::core::compiler::fingerprint: fingerprint dirty for dstack-vmm v0.5.5 (/Users/chef/Desktop/dstack/vmm)/Check { test: false }/TargetInner { name: "dstack-vmm", doc: true, ..: with_path("/Users/chef/Desktop/dstack/vmm/src/main.rs", Edition2021) }
+   0.391086375s  INFO prepare_target{force=false package_id=dstack-vmm v0.5.5 (/Users/chef/Desktop/dstack/vmm) target="dstack-vmm"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "ra_rpc" })
+   0.393330542s  INFO prepare_target{force=false package_id=dstack-vmm v0.5.5 (/Users/chef/Desktop/dstack/vmm) target="dstack-vmm"}: cargo::core::compiler::fingerprint: fingerprint dirty for dstack-vmm v0.5.5 (/Users/chef/Desktop/dstack/vmm)/Check { test: true }/TargetInner { name: "dstack-vmm", doc: true, ..: with_path("/Users/chef/Desktop/dstack/vmm/src/main.rs", Edition2021) }
+   0.393336500s  INFO prepare_target{force=false package_id=dstack-vmm v0.5.5 (/Users/chef/Desktop/dstack/vmm) target="dstack-vmm"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "ra_rpc" })
+   0.395703334s  INFO prepare_target{force=false package_id=ra-rpc v0.5.5 (/Users/chef/Desktop/dstack/ra-rpc) target="ra_rpc"}: cargo::core::compiler::fingerprint: fingerprint dirty for ra-rpc v0.5.5 (/Users/chef/Desktop/dstack/ra-rpc)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("ra_rpc", ["lib"], "/Users/chef/Desktop/dstack/ra-rpc/src/lib.rs", Edition2021) }
+   0.395711500s  INFO prepare_target{force=false package_id=ra-rpc v0.5.5 (/Users/chef/Desktop/dstack/ra-rpc) target="ra_rpc"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "ra_tls" })
+   0.396543500s  INFO prepare_target{force=false package_id=ra-tls v0.5.5 (/Users/chef/Desktop/dstack/ra-tls) target="ra_tls"}: cargo::core::compiler::fingerprint: stale: changed "/Users/chef/Desktop/dstack/ra-tls/src/attestation.rs"
+   0.396549334s  INFO prepare_target{force=false package_id=ra-tls v0.5.5 (/Users/chef/Desktop/dstack/ra-tls) target="ra_tls"}: cargo::core::compiler::fingerprint:           (vs) "/Users/chef/Desktop/dstack/target/debug/.fingerprint/ra-tls-58c7765cee1017e5/dep-test-lib-ra_tls"
+   0.396551292s  INFO prepare_target{force=false package_id=ra-tls v0.5.5 (/Users/chef/Desktop/dstack/ra-tls) target="ra_tls"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1766508079, nanos: 515524860 } < FileTime { seconds: 1766508085, nanos: 287614207 }
+   0.396619375s  INFO prepare_target{force=false package_id=ra-tls v0.5.5 (/Users/chef/Desktop/dstack/ra-tls) target="ra_tls"}: cargo::core::compiler::fingerprint: fingerprint dirty for ra-tls v0.5.5 (/Users/chef/Desktop/dstack/ra-tls)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("ra_tls", ["lib"], "/Users/chef/Desktop/dstack/ra-tls/src/lib.rs", Edition2021) }
+   0.396625375s  INFO prepare_target{force=false package_id=ra-tls v0.5.5 (/Users/chef/Desktop/dstack/ra-tls) target="ra_tls"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/Users/chef/Desktop/dstack/target/debug/.fingerprint/ra-tls-58c7765cee1017e5/dep-test-lib-ra_tls", reference_mtime: FileTime { seconds: 1766508079, nanos: 515524860 }, stale: "/Users/chef/Desktop/dstack/ra-tls/src/attestation.rs", stale_mtime: FileTime { seconds: 1766508085, nanos: 287614207 } }))
+   0.397849542s  INFO prepare_target{force=false package_id=supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor) target="supervisor"}: cargo::core::compiler::fingerprint: stale: changed "/Users/chef/Desktop/dstack/.git/index"
+   0.397851750s  INFO prepare_target{force=false package_id=supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor) target="supervisor"}: cargo::core::compiler::fingerprint:           (vs) "/Users/chef/Desktop/dstack/target/debug/.fingerprint/supervisor-3670de81e05b36d2/dep-bin-supervisor"
+   0.397853042s  INFO prepare_target{force=false package_id=supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor) target="supervisor"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1766508079, nanos: 511783065 } < FileTime { seconds: 1766508080, nanos: 231516830 }
+   0.397898625s  INFO prepare_target{force=false package_id=supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor) target="supervisor"}: cargo::core::compiler::fingerprint: fingerprint dirty for supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor)/Check { test: false }/TargetInner { name: "supervisor", doc: true, ..: with_path("/Users/chef/Desktop/dstack/supervisor/src/main.rs", Edition2021) }
+   0.397902334s  INFO prepare_target{force=false package_id=supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor) target="supervisor"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/Users/chef/Desktop/dstack/target/debug/.fingerprint/supervisor-3670de81e05b36d2/dep-bin-supervisor", reference_mtime: FileTime { seconds: 1766508079, nanos: 511783065 }, stale: "/Users/chef/Desktop/dstack/.git/index", stale_mtime: FileTime { seconds: 1766508080, nanos: 231516830 } }))
+   0.398620709s  INFO prepare_target{force=false package_id=supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor) target="supervisor"}: cargo::core::compiler::fingerprint: stale: changed "/Users/chef/Desktop/dstack/.git/index"
+   0.398623084s  INFO prepare_target{force=false package_id=supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor) target="supervisor"}: cargo::core::compiler::fingerprint:           (vs) "/Users/chef/Desktop/dstack/target/debug/.fingerprint/supervisor-fda32eeba3cfba41/dep-test-bin-supervisor"
+   0.398624417s  INFO prepare_target{force=false package_id=supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor) target="supervisor"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1766508079, nanos: 511777023 } < FileTime { seconds: 1766508080, nanos: 231516830 }
+   0.398680084s  INFO prepare_target{force=false package_id=supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor) target="supervisor"}: cargo::core::compiler::fingerprint: fingerprint dirty for supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor)/Check { test: true }/TargetInner { name: "supervisor", doc: true, ..: with_path("/Users/chef/Desktop/dstack/supervisor/src/main.rs", Edition2021) }
+   0.398684292s  INFO prepare_target{force=false package_id=supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor) target="supervisor"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/Users/chef/Desktop/dstack/target/debug/.fingerprint/supervisor-fda32eeba3cfba41/dep-test-bin-supervisor", reference_mtime: FileTime { seconds: 1766508079, nanos: 511777023 }, stale: "/Users/chef/Desktop/dstack/.git/index", stale_mtime: FileTime { seconds: 1766508080, nanos: 231516830 } }))
+   0.407928459s  INFO prepare_target{force=false package_id=tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys) target="tdx_attest_sys"}: cargo::core::compiler::fingerprint: fingerprint error for tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("tdx_attest_sys", ["lib"], "/Users/chef/Desktop/dstack/tdx-attest-sys/src/lib.rs", Edition2021) }
+   0.407938834s  INFO prepare_target{force=false package_id=tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys) target="tdx_attest_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/tdx-attest-sys-f0e1da10b8aff63c/lib-tdx_attest_sys`
 
 Caused by:
     No such file or directory (os error 2)
@@ -441,8 +487,8 @@ Stack backtrace:
   15: std::rt::lang_start::<()>::{closure#0}
   16: std::rt::lang_start_internal
   17: _main
-   0.362083000s  INFO prepare_target{force=false package_id=tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys) target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys)/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "/Users/chef/Desktop/dstack/tdx-attest-sys/build.rs", Edition2021) }
-   0.362087541s  INFO prepare_target{force=false package_id=tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys) target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/tdx-attest-sys-e5d3ecce871e8636/run-build-script-build-script-build`
+   0.408137459s  INFO prepare_target{force=false package_id=tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys) target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys)/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "/Users/chef/Desktop/dstack/tdx-attest-sys/build.rs", Edition2021) }
+   0.408141334s  INFO prepare_target{force=false package_id=tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys) target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/tdx-attest-sys-e5d3ecce871e8636/run-build-script-build-script-build`
 
 Caused by:
     No such file or directory (os error 2)
@@ -468,8 +514,8 @@ Stack backtrace:
   17: std::rt::lang_start::<()>::{closure#0}
   18: std::rt::lang_start_internal
   19: _main
-   0.362524208s  INFO prepare_target{force=false package_id=tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys) target="tdx_attest_sys"}: cargo::core::compiler::fingerprint: fingerprint error for tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("tdx_attest_sys", ["lib"], "/Users/chef/Desktop/dstack/tdx-attest-sys/src/lib.rs", Edition2021) }
-   0.362528416s  INFO prepare_target{force=false package_id=tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys) target="tdx_attest_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/tdx-attest-sys-48c426567554a062/test-lib-tdx_attest_sys`
+   0.408576000s  INFO prepare_target{force=false package_id=tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys) target="tdx_attest_sys"}: cargo::core::compiler::fingerprint: fingerprint error for tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("tdx_attest_sys", ["lib"], "/Users/chef/Desktop/dstack/tdx-attest-sys/src/lib.rs", Edition2021) }
+   0.408579792s  INFO prepare_target{force=false package_id=tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys) target="tdx_attest_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/tdx-attest-sys-48c426567554a062/test-lib-tdx_attest_sys`
 
 Caused by:
     No such file or directory (os error 2)
@@ -493,10 +539,19 @@ Stack backtrace:
   15: std::rt::lang_start::<()>::{closure#0}
   16: std::rt::lang_start_internal
   17: _main
+    Checking ra-tls v0.5.5 (/Users/chef/Desktop/dstack/ra-tls)
     Checking alloy-consensus v1.0.32
    Compiling tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys)
     Checking sodiumbox v0.1.0 (/Users/chef/Desktop/dstack/sodiumbox)
     Checking supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor)
+    Checking ra-rpc v0.5.5 (/Users/chef/Desktop/dstack/ra-rpc)
+    Checking dstack-verifier v0.5.5 (/Users/chef/Desktop/dstack/verifier)
+    Checking cert-client v0.5.5 (/Users/chef/Desktop/dstack/cert-client)
+    Checking dstack-kms v0.5.5 (/Users/chef/Desktop/dstack/kms)
+    Checking dstack-vmm v0.5.5 (/Users/chef/Desktop/dstack/vmm)
+    Checking dstack-gateway v0.5.5 (/Users/chef/Desktop/dstack/gateway)
+    Checking ct_monitor v0.5.5 (/Users/chef/Desktop/dstack/ct_monitor)
+    Checking dstack-guest-agent v0.5.5 (/Users/chef/Desktop/dstack/guest-agent)
     Checking dstack-util v0.5.5 (/Users/chef/Desktop/dstack/dstack-util)
 error: could not compile `alloy-consensus` (lib) due to 1 previous error
 warning: build failed, waiting for other jobs to finish...
