@@ -1,13 +1,557 @@
-    Updating git repository `https://github.com/jonas089/dcap-qvl`
-    Updating crates.io index
-error: failed to select a version for `anyhow`.
-    ... required by package `dcap-qvl v0.3.4 (https://github.com/jonas089/dcap-qvl?branch=v0.3.4-zk#e0c27919)`
-    ... which satisfies git dependency `dcap-qvl` of package `dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust)`
-versions that meet the requirements `^1.0.100` are: 1.0.100
+   0.325344708s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="dstack_sdk"}: cargo::core::compiler::fingerprint: fingerprint error for dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("dstack_sdk", ["lib"], "/Users/chef/Desktop/dstack/sdk/rust/src/lib.rs", Edition2021) }
+   0.325370708s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="dstack_sdk"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/dstack-sdk-073a6c73a25bd97f/lib-dstack_sdk`
 
-all possible versions conflict with previously selected packages.
+Caused by:
+    No such file or directory (os error 2)
 
-  previously selected package `anyhow v1.0.99`
-    ... which satisfies dependency `anyhow = "^1.0.97"` (locked to 1.0.99) of package `certbot-cli v0.5.5 (/Users/chef/Desktop/dstack/certbot/cli)`
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+   0.328085875s  INFO prepare_target{force=false package_id=alloy v1.0.32 target="alloy"}: cargo::core::compiler::fingerprint: fingerprint error for alloy v1.0.32/Check { test: false }/TargetInner { ..: lib_target("alloy", ["lib"], "/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-1.0.32/src/lib.rs", Edition2021) }
+   0.328094750s  INFO prepare_target{force=false package_id=alloy v1.0.32 target="alloy"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/alloy-8296f088e9f4557a/lib-alloy`
 
-failed to select a version for `anyhow` which could resolve this conflict
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   9: cargo::ops::cargo_compile::compile_ws
+  10: cargo::ops::cargo_compile::compile_with_exec
+  11: cargo::ops::cargo_compile::compile
+  12: cargo::commands::check::exec
+  13: <cargo::cli::Exec>::exec
+  14: cargo::main
+  15: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  16: std::rt::lang_start::<()>::{closure#0}
+  17: std::rt::lang_start_internal
+  18: _main
+   0.328991875s  INFO prepare_target{force=false package_id=alloy-signer-local v1.0.32 target="alloy_signer_local"}: cargo::core::compiler::fingerprint: fingerprint error for alloy-signer-local v1.0.32/Check { test: false }/TargetInner { ..: lib_target("alloy_signer_local", ["lib"], "/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-signer-local-1.0.32/src/lib.rs", Edition2021) }
+   0.328997833s  INFO prepare_target{force=false package_id=alloy-signer-local v1.0.32 target="alloy_signer_local"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/alloy-signer-local-95748acff9ee260e/lib-alloy_signer_local`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_ws
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+  19: _main
+   0.329329833s  INFO prepare_target{force=false package_id=alloy-consensus v1.0.32 target="alloy_consensus"}: cargo::core::compiler::fingerprint: fingerprint error for alloy-consensus v1.0.32/Check { test: false }/TargetInner { ..: lib_target("alloy_consensus", ["lib"], "/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-consensus-1.0.32/src/lib.rs", Edition2021) }
+   0.329333958s  INFO prepare_target{force=false package_id=alloy-consensus v1.0.32 target="alloy_consensus"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/alloy-consensus-a69fb6df8f6f9f0a/lib-alloy_consensus`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+   0.330353375s  INFO prepare_target{force=false package_id=alloy-network v1.0.32 target="alloy_network"}: cargo::core::compiler::fingerprint: fingerprint error for alloy-network v1.0.32/Check { test: false }/TargetInner { ..: lib_target("alloy_network", ["lib"], "/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-network-1.0.32/src/lib.rs", Edition2021) }
+   0.330362166s  INFO prepare_target{force=false package_id=alloy-network v1.0.32 target="alloy_network"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/alloy-network-9c8706e0d62b5018/lib-alloy_network`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+   0.330892000s  INFO prepare_target{force=false package_id=alloy-consensus-any v1.0.32 target="alloy_consensus_any"}: cargo::core::compiler::fingerprint: fingerprint error for alloy-consensus-any v1.0.32/Check { test: false }/TargetInner { ..: lib_target("alloy_consensus_any", ["lib"], "/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-consensus-any-1.0.32/src/lib.rs", Edition2021) }
+   0.330897333s  INFO prepare_target{force=false package_id=alloy-consensus-any v1.0.32 target="alloy_consensus_any"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/alloy-consensus-any-a4135dde446c17ff/lib-alloy_consensus_any`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_ws
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+  21: _main
+   0.331381791s  INFO prepare_target{force=false package_id=alloy-network-primitives v1.0.32 target="alloy_network_primitives"}: cargo::core::compiler::fingerprint: fingerprint error for alloy-network-primitives v1.0.32/Check { test: false }/TargetInner { ..: lib_target("alloy_network_primitives", ["lib"], "/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-network-primitives-1.0.32/src/lib.rs", Edition2021) }
+   0.331386041s  INFO prepare_target{force=false package_id=alloy-network-primitives v1.0.32 target="alloy_network_primitives"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/alloy-network-primitives-db88bced3da38e1c/lib-alloy_network_primitives`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_ws
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+  21: _main
+   0.331623875s  INFO prepare_target{force=false package_id=alloy-rpc-types-any v1.0.32 target="alloy_rpc_types_any"}: cargo::core::compiler::fingerprint: fingerprint error for alloy-rpc-types-any v1.0.32/Check { test: false }/TargetInner { ..: lib_target("alloy_rpc_types_any", ["lib"], "/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-rpc-types-any-1.0.32/src/lib.rs", Edition2021) }
+   0.331627708s  INFO prepare_target{force=false package_id=alloy-rpc-types-any v1.0.32 target="alloy_rpc_types_any"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/alloy-rpc-types-any-b18960e47bf26d45/lib-alloy_rpc_types_any`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_ws
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+  21: _main
+   0.331842166s  INFO prepare_target{force=false package_id=alloy-rpc-types-eth v1.0.32 target="alloy_rpc_types_eth"}: cargo::core::compiler::fingerprint: fingerprint error for alloy-rpc-types-eth v1.0.32/Check { test: false }/TargetInner { ..: lib_target("alloy_rpc_types_eth", ["lib"], "/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-rpc-types-eth-1.0.32/src/lib.rs", Edition2021) }
+   0.331847958s  INFO prepare_target{force=false package_id=alloy-rpc-types-eth v1.0.32 target="alloy_rpc_types_eth"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/alloy-rpc-types-eth-2e10b6d041a9896f/lib-alloy_rpc_types_eth`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  13: cargo::ops::cargo_compile::compile_ws
+  14: cargo::ops::cargo_compile::compile_with_exec
+  15: cargo::ops::cargo_compile::compile
+  16: cargo::commands::check::exec
+  17: <cargo::cli::Exec>::exec
+  18: cargo::main
+  19: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  20: std::rt::lang_start::<()>::{closure#0}
+  21: std::rt::lang_start_internal
+  22: _main
+   0.332663500s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="dstack_sdk"}: cargo::core::compiler::fingerprint: fingerprint error for dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("dstack_sdk", ["lib"], "/Users/chef/Desktop/dstack/sdk/rust/src/lib.rs", Edition2021) }
+   0.332668000s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="dstack_sdk"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/dstack-sdk-a25f124bae481b2d/test-lib-dstack_sdk`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+   0.333410041s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="test_client"}: cargo::core::compiler::fingerprint: fingerprint error for dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust)/Check { test: true }/TargetInner { kind: "test", name: "test_client", benched: false, ..: with_path("/Users/chef/Desktop/dstack/sdk/rust/tests/test_client.rs", Edition2021) }
+   0.333415166s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="test_client"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/dstack-sdk-c66dfcb2affe490a/test-integration-test-test_client`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+   0.334074416s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="test_eth"}: cargo::core::compiler::fingerprint: fingerprint error for dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust)/Check { test: true }/TargetInner { kind: "test", name: "test_eth", benched: false, ..: with_path("/Users/chef/Desktop/dstack/sdk/rust/tests/test_eth.rs", Edition2021) }
+   0.334079083s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="test_eth"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/dstack-sdk-485c4808ffecac6b/test-integration-test-test_eth`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+   0.334709875s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="test_tappd_client"}: cargo::core::compiler::fingerprint: fingerprint error for dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust)/Check { test: true }/TargetInner { kind: "test", name: "test_tappd_client", benched: false, ..: with_path("/Users/chef/Desktop/dstack/sdk/rust/tests/test_tappd_client.rs", Edition2021) }
+   0.334714250s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="test_tappd_client"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/dstack-sdk-41bdf7f0a41615a9/test-integration-test-test_tappd_client`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+   0.335340083s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="dstack_client_usage"}: cargo::core::compiler::fingerprint: fingerprint error for dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust)/Check { test: false }/TargetInner { kind: "example", name: "dstack_client_usage", tested: false, benched: false, ..: with_path("/Users/chef/Desktop/dstack/sdk/rust/examples/dstack_client_usage.rs", Edition2021) }
+   0.335345583s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="dstack_client_usage"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/dstack-sdk-ae36a516a2d2c41b/example-dstack_client_usage`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+   0.335975375s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="tappd_client_usage"}: cargo::core::compiler::fingerprint: fingerprint error for dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust)/Check { test: false }/TargetInner { kind: "example", name: "tappd_client_usage", tested: false, benched: false, ..: with_path("/Users/chef/Desktop/dstack/sdk/rust/examples/tappd_client_usage.rs", Edition2021) }
+   0.335984833s  INFO prepare_target{force=false package_id=dstack-sdk v0.1.2 (/Users/chef/Desktop/dstack/sdk/rust) target="tappd_client_usage"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/dstack-sdk-372a69c9bddc16ca/example-tappd_client_usage`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+   0.339084375s  INFO prepare_target{force=false package_id=dstack-util v0.5.5 (/Users/chef/Desktop/dstack/dstack-util) target="dstack-util"}: cargo::core::compiler::fingerprint: dependency on `xsalsa20poly1305` is newer than we are 1766502251.453942100s > 1766502196.034919649s "/Users/chef/Desktop/dstack/sodiumbox"
+   0.339201833s  INFO prepare_target{force=false package_id=dstack-util v0.5.5 (/Users/chef/Desktop/dstack/dstack-util) target="dstack-util"}: cargo::core::compiler::fingerprint: fingerprint dirty for dstack-util v0.5.5 (/Users/chef/Desktop/dstack/dstack-util)/Check { test: false }/TargetInner { name: "dstack-util", doc: true, ..: with_path("/Users/chef/Desktop/dstack/dstack-util/src/main.rs", Edition2021) }
+   0.339209541s  INFO prepare_target{force=false package_id=dstack-util v0.5.5 (/Users/chef/Desktop/dstack/dstack-util) target="dstack-util"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "sodiumbox" })
+   0.342104541s  INFO prepare_target{force=false package_id=sodiumbox v0.1.0 (/Users/chef/Desktop/dstack/sodiumbox) target="sodiumbox"}: cargo::core::compiler::fingerprint: fingerprint dirty for sodiumbox v0.1.0 (/Users/chef/Desktop/dstack/sodiumbox)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sodiumbox", ["lib"], "/Users/chef/Desktop/dstack/sodiumbox/src/lib.rs", Edition2021) }
+   0.342112000s  INFO prepare_target{force=false package_id=sodiumbox v0.1.0 (/Users/chef/Desktop/dstack/sodiumbox) target="sodiumbox"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "xsalsa20poly1305", dep_mtime: FileTime { seconds: 1766502251, nanos: 453942100 }, max_mtime: FileTime { seconds: 1766502196, nanos: 34919649 } })
+   0.342511958s  INFO prepare_target{force=false package_id=dstack-util v0.5.5 (/Users/chef/Desktop/dstack/dstack-util) target="dstack-util"}: cargo::core::compiler::fingerprint: fingerprint dirty for dstack-util v0.5.5 (/Users/chef/Desktop/dstack/dstack-util)/Check { test: true }/TargetInner { name: "dstack-util", doc: true, ..: with_path("/Users/chef/Desktop/dstack/dstack-util/src/main.rs", Edition2021) }
+   0.342516708s  INFO prepare_target{force=false package_id=dstack-util v0.5.5 (/Users/chef/Desktop/dstack/dstack-util) target="dstack-util"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "sodiumbox" })
+   0.354794875s  INFO prepare_target{force=false package_id=supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor) target="supervisor"}: cargo::core::compiler::fingerprint: stale: changed "/Users/chef/Desktop/dstack/.git/index"
+   0.354802000s  INFO prepare_target{force=false package_id=supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor) target="supervisor"}: cargo::core::compiler::fingerprint:           (vs) "/Users/chef/Desktop/dstack/target/debug/.fingerprint/supervisor-3670de81e05b36d2/dep-bin-supervisor"
+   0.354803833s  INFO prepare_target{force=false package_id=supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor) target="supervisor"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1766506621, nanos: 132930815 } < FileTime { seconds: 1766506621, nanos: 308263722 }
+   0.354867666s  INFO prepare_target{force=false package_id=supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor) target="supervisor"}: cargo::core::compiler::fingerprint: fingerprint dirty for supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor)/Check { test: false }/TargetInner { name: "supervisor", doc: true, ..: with_path("/Users/chef/Desktop/dstack/supervisor/src/main.rs", Edition2021) }
+   0.354874875s  INFO prepare_target{force=false package_id=supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor) target="supervisor"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/Users/chef/Desktop/dstack/target/debug/.fingerprint/supervisor-3670de81e05b36d2/dep-bin-supervisor", reference_mtime: FileTime { seconds: 1766506621, nanos: 132930815 }, stale: "/Users/chef/Desktop/dstack/.git/index", stale_mtime: FileTime { seconds: 1766506621, nanos: 308263722 } }))
+   0.355730333s  INFO prepare_target{force=false package_id=supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor) target="supervisor"}: cargo::core::compiler::fingerprint: stale: changed "/Users/chef/Desktop/dstack/.git/index"
+   0.355733458s  INFO prepare_target{force=false package_id=supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor) target="supervisor"}: cargo::core::compiler::fingerprint:           (vs) "/Users/chef/Desktop/dstack/target/debug/.fingerprint/supervisor-fda32eeba3cfba41/dep-test-bin-supervisor"
+   0.355734833s  INFO prepare_target{force=false package_id=supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor) target="supervisor"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1766506621, nanos: 132988523 } < FileTime { seconds: 1766506621, nanos: 308263722 }
+   0.355787208s  INFO prepare_target{force=false package_id=supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor) target="supervisor"}: cargo::core::compiler::fingerprint: fingerprint dirty for supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor)/Check { test: true }/TargetInner { name: "supervisor", doc: true, ..: with_path("/Users/chef/Desktop/dstack/supervisor/src/main.rs", Edition2021) }
+   0.355791458s  INFO prepare_target{force=false package_id=supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor) target="supervisor"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/Users/chef/Desktop/dstack/target/debug/.fingerprint/supervisor-fda32eeba3cfba41/dep-test-bin-supervisor", reference_mtime: FileTime { seconds: 1766506621, nanos: 132988523 }, stale: "/Users/chef/Desktop/dstack/.git/index", stale_mtime: FileTime { seconds: 1766506621, nanos: 308263722 } }))
+   0.361869916s  INFO prepare_target{force=false package_id=tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys) target="tdx_attest_sys"}: cargo::core::compiler::fingerprint: fingerprint error for tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("tdx_attest_sys", ["lib"], "/Users/chef/Desktop/dstack/tdx-attest-sys/src/lib.rs", Edition2021) }
+   0.361884083s  INFO prepare_target{force=false package_id=tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys) target="tdx_attest_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/tdx-attest-sys-f0e1da10b8aff63c/lib-tdx_attest_sys`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+   0.362083000s  INFO prepare_target{force=false package_id=tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys) target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys)/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "/Users/chef/Desktop/dstack/tdx-attest-sys/build.rs", Edition2021) }
+   0.362087541s  INFO prepare_target{force=false package_id=tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys) target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/tdx-attest-sys-e5d3ecce871e8636/run-build-script-build-script-build`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::custom_build::build_work
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_ws
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+  19: _main
+   0.362524208s  INFO prepare_target{force=false package_id=tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys) target="tdx_attest_sys"}: cargo::core::compiler::fingerprint: fingerprint error for tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("tdx_attest_sys", ["lib"], "/Users/chef/Desktop/dstack/tdx-attest-sys/src/lib.rs", Edition2021) }
+   0.362528416s  INFO prepare_target{force=false package_id=tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys) target="tdx_attest_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/chef/Desktop/dstack/target/debug/.fingerprint/tdx-attest-sys-48c426567554a062/test-lib-tdx_attest_sys`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+    Checking alloy-consensus v1.0.32
+   Compiling tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys)
+    Checking sodiumbox v0.1.0 (/Users/chef/Desktop/dstack/sodiumbox)
+    Checking supervisor v0.5.5 (/Users/chef/Desktop/dstack/supervisor)
+    Checking dstack-util v0.5.5 (/Users/chef/Desktop/dstack/dstack-util)
+error: could not compile `alloy-consensus` (lib) due to 1 previous error
+warning: build failed, waiting for other jobs to finish...
+warning: tdx-attest-sys@0.5.5: csrc/tdx_attest.c:36:10: fatal error: 'linux/vm_sockets.h' file not found
+warning: tdx-attest-sys@0.5.5:    36 | #include <linux/vm_sockets.h>
+warning: tdx-attest-sys@0.5.5:       |          ^~~~~~~~~~~~~~~~~~~~
+warning: tdx-attest-sys@0.5.5: 1 error generated.
+warning: tdx-attest-sys@0.5.5: ToolExecError: command did not execute successfully (status code exit status: 1): env -u IPHONEOS_DEPLOYMENT_TARGET LC_ALL="C" "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-macosx" "-mmacosx-version-min=26.0" "-Wall" "-Wextra" "-o" "/Users/chef/Desktop/dstack/target/debug/build/tdx-attest-sys-e5d3ecce871e8636/out/faea18488176a15d-tdx_attest.o" "-c" "csrc/tdx_attest.c"
+error: failed to run custom build command for `tdx-attest-sys v0.5.5 (/Users/chef/Desktop/dstack/tdx-attest-sys)`
+note: To improve backtraces for build dependencies, set the CARGO_PROFILE_DEV_BUILD_OVERRIDE_DEBUG=true environment variable to enable debug information generation.
+
+Caused by:
+  process didn't exit successfully: `/Users/chef/Desktop/dstack/target/debug/build/tdx-attest-sys-fd3de1e74afe8ac4/build-script-build` (exit status: 1)
+  --- stdout
+  cargo:rerun-if-changed=csrc/tdx_attest.c
+  cargo:rerun-if-changed=csrc/qgs_msg_lib.cpp
+  OUT_DIR = Some(/Users/chef/Desktop/dstack/target/debug/build/tdx-attest-sys-e5d3ecce871e8636/out)
+  OPT_LEVEL = Some(0)
+  TARGET = Some(aarch64-apple-darwin)
+  HOST = Some(aarch64-apple-darwin)
+  cargo:rerun-if-env-changed=CC_aarch64-apple-darwin
+  CC_aarch64-apple-darwin = None
+  cargo:rerun-if-env-changed=CC_aarch64_apple_darwin
+  CC_aarch64_apple_darwin = None
+  cargo:rerun-if-env-changed=HOST_CC
+  HOST_CC = None
+  cargo:rerun-if-env-changed=CC
+  CC = None
+  cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+  RUSTC_WRAPPER = None
+  cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+  CRATE_CC_NO_DEFAULTS = None
+  DEBUG = Some(true)
+  cargo:rerun-if-env-changed=MACOSX_DEPLOYMENT_TARGET
+  MACOSX_DEPLOYMENT_TARGET = None
+  cargo:rerun-if-env-changed=CFLAGS
+  CFLAGS = None
+  cargo:rerun-if-env-changed=HOST_CFLAGS
+  HOST_CFLAGS = None
+  cargo:rerun-if-env-changed=CFLAGS_aarch64_apple_darwin
+  CFLAGS_aarch64_apple_darwin = None
+  cargo:rerun-if-env-changed=CFLAGS_aarch64-apple-darwin
+  CFLAGS_aarch64-apple-darwin = None
+  CARGO_ENCODED_RUSTFLAGS = Some()
+  cargo:warning=csrc/tdx_attest.c:36:10: fatal error: 'linux/vm_sockets.h' file not found
+  cargo:warning=   36 | #include <linux/vm_sockets.h>
+  cargo:warning=      |          ^~~~~~~~~~~~~~~~~~~~
+  cargo:warning=1 error generated.
+  exit status: 1
+  cargo:warning=ToolExecError: command did not execute successfully (status code exit status: 1): env -u IPHONEOS_DEPLOYMENT_TARGET LC_ALL="C" "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-macosx" "-mmacosx-version-min=26.0" "-Wall" "-Wextra" "-o" "/Users/chef/Desktop/dstack/target/debug/build/tdx-attest-sys-e5d3ecce871e8636/out/faea18488176a15d-tdx_attest.o" "-c" "csrc/tdx_attest.c"
+  exit status: 0
+
+  --- stderr
+
+
+  error occurred in cc-rs: command did not execute successfully (status code exit status: 1): env -u IPHONEOS_DEPLOYMENT_TARGET LC_ALL="C" "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-macosx" "-mmacosx-version-min=26.0" "-Wall" "-Wextra" "-o" "/Users/chef/Desktop/dstack/target/debug/build/tdx-attest-sys-e5d3ecce871e8636/out/faea18488176a15d-tdx_attest.o" "-c" "csrc/tdx_attest.c"
+
+

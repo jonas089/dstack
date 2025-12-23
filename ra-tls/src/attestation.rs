@@ -11,6 +11,7 @@ use dcap_qvl::quote::Quote;
 use qvl::{
     quote::{EnclaveReport, Report, TDReport10, TDReport15},
     verify::VerifiedReport,
+    QuoteCollateralV3,
 };
 use serde::Serialize;
 use sha2::{Digest as _, Sha384};
@@ -326,6 +327,38 @@ impl Attestation {
             };
         }
         let report = qvl::collateral::get_collateral_and_verify(quote, Some(pccs_url.as_ref()))
+            .await
+            .context("Failed to get collateral")?;
+        if let Some(report) = report.report.as_td10() {
+            // Replay the event logs
+            let rtmrs = self
+                .replay_event_logs(None)
+                .context("Failed to replay event logs")?;
+            if rtmrs != [report.rt_mr0, report.rt_mr1, report.rt_mr2, report.rt_mr3] {
+                bail!("RTMR mismatch");
+            }
+        }
+        validate_tcb(&report)?;
+        Ok(VerifiedAttestation {
+            quote: self.quote,
+            raw_event_log: self.raw_event_log,
+            event_log: self.event_log,
+            report,
+        })
+    }
+
+    /// Verify the quote with collateral
+    pub async fn verify_with_collateral(
+        self,
+        report_data: &[u8; 64],
+        collateral: QuoteCollateralV3,
+        now: u64,
+    ) -> Result<VerifiedAttestation> {
+        let quote = &self.quote;
+        if &self.decode_report_data()? != report_data {
+            bail!("report data mismatch");
+        }
+        let report = qvl::collateral::verify_collateral(quote, &collateral, now)
             .await
             .context("Failed to get collateral")?;
         if let Some(report) = report.report.as_td10() {

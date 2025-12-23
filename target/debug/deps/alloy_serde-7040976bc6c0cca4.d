@@ -1,0 +1,12 @@
+/Users/chef/Desktop/dstack/target/debug/deps/alloy_serde-7040976bc6c0cca4.d: /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-serde-1.0.32/src/lib.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-serde-1.0.32/src/displayfromstr.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-serde-1.0.32/src/optional.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-serde-1.0.32/src/quantity.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-serde-1.0.32/src/storage.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-serde-1.0.32/src/ttd.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-serde-1.0.32/src/other/mod.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-serde-1.0.32/src/../README.md
+
+/Users/chef/Desktop/dstack/target/debug/deps/liballoy_serde-7040976bc6c0cca4.rmeta: /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-serde-1.0.32/src/lib.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-serde-1.0.32/src/displayfromstr.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-serde-1.0.32/src/optional.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-serde-1.0.32/src/quantity.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-serde-1.0.32/src/storage.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-serde-1.0.32/src/ttd.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-serde-1.0.32/src/other/mod.rs /Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-serde-1.0.32/src/../README.md
+
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-serde-1.0.32/src/lib.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-serde-1.0.32/src/displayfromstr.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-serde-1.0.32/src/optional.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-serde-1.0.32/src/quantity.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-serde-1.0.32/src/storage.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-serde-1.0.32/src/ttd.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-serde-1.0.32/src/other/mod.rs:
+/Users/chef/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloy-serde-1.0.32/src/../README.md:
